@@ -12,9 +12,9 @@ Welcome to my digital dev corner! I’m a Computer Engineering student at VIT Mu
 ---
 🚀 Tech I Work With:
 
-Languages: Python 🐍 | C 💻 | Java ☕ | C++
-Dev Tools: Git 🔧 | GitHub 🗂️ | VS Code 🧩 | IntelliJ 🚀
-Concepts: OOP 🔄 | Data Structures 🌲 | REST APIs 🌐 | SQL 📊 | File I/O 📁
+_Languages: Python 🐍 | C 💻 | Java ☕ | C++
+_Dev Tools: Git 🔧 | GitHub 🗂️ | VS Code 🧩 | IntelliJ 🚀
+_Concepts: OOP 🔄 | Data Structures 🌲 | REST APIs 🌐 | SQL 📊 | File I/O 📁
 
 <!---
 shard-c6/shard-c6 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
