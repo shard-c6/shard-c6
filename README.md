@@ -1,9 +1,20 @@
-- 👋 Hi, I’m @shard-c6
-- 👀 I’m interested in AI and Machine learning and an aspiring Data Scientist / Data Engineer
-- Having Good hold over fundamentals of python, c , cpp and more specifically numpy 
-- 🌱 I’m currently learning c on cs50 by harvard university
-- 💞️ I’m looking to collaborate on some of my web dev project
-- 📫 How to reach me @shardc6 on instagram (Have a Nice Day)
+ Hey there, I'm Shardul Chogale👋  
+_Aspiring Data Engineer / Data Scientist 💻 | Hackathon Explorer ⚡ 
+
+Welcome to my digital dev corner! I’m a Computer Engineering student at VIT Mumbai 🎓, currently exploring the world of **Data Science**, **AI**, and **Software Engineering**—one project at a time.
+
+---
+👨‍💻 What I'm Up To:
+- 🧠 Learning, building, breaking, and rebuilding—like a true engineer.
+- 🌱 Exploring ideas at the intersection of tech, data, and real-world impact.
+- 🤫 Cooking up something cool behind the scenes. Stay tuned!
+
+---
+🚀 Tech I Work With:
+
+Languages: Python 🐍 | C 💻 | Java ☕ | C++
+Dev Tools: Git 🔧 | GitHub 🗂️ | VS Code 🧩 | IntelliJ 🚀
+Concepts: OOP 🔄 | Data Structures 🌲 | REST APIs 🌐 | SQL 📊 | File I/O 📁
 
 <!---
 shard-c6/shard-c6 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
