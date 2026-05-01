@@ -1,3 +1,12 @@
+## 👨‍💻 About Me
+
+- 🔭 Currently building **full-stack applications & exploring data engineering workflows**
+- 🤝 Open to collaborating on **backend systems, APIs, and data-driven projects**
+- 🧠 Learning **Pandas, SQL, Data Pipelines, and Cloud Technologies (AWS/Azure)**
+- 🛠️ Tech stack: **Python | C | Java | Django | REST APIs**
+- 💬 Ask me about **backend development, data flow concepts, and system logic**
+- ⚡ Fun fact: **Engineer by mind, poet by heart ✨**
+
 
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/shardul-c-6a3b73273) [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@shardulchogale1983) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:shardulchogale1983@gmail.com) 
