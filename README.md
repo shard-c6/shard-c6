@@ -1,24 +1,222 @@
-#  About Me:
+<!-- ═══════════════════════════════════════════════════════════════════════
+     🔥 SHARD-C6 — GitHub Profile README
+     Backed up original → README_old.md
+     ═══════════════════════════════════════════════════════════════════════ -->
 
-🔭 I’m currently working on EVNet Sentinel, GreenGuard, and dehelpers, while actively maintaining a daily LeetCode streak, sharpening my DSA, and preparing for GATE DA. I am also developing an EdTech platform MVP and the PaperTrail AI/ML project for OCR document extraction.<br>🧠 I’m looking to collaborate on complex data engineering challenges, real-world hackathons, scalable system designs, and innovative products in the healthtech and fintech sectors, particularly where I can leverage my knowledge of satellite data.<br>🤝 I’m looking for help with tackling the intricacies required for my upcoming certifications: Databricks Associate Data Engineer, Spark Developer, and my targeted AWS/Azure cloud certifications, including AZ-900 and DP-900.<br>🌱 I’m currently learning the current state of AI and the essential tech stack to achieve my dream of becoming an AI Data Engineer at Databricks. I am laying the groundwork for a future transition into Data Architecture, while simultaneously studying Apache Kafka, Spark, mastering advanced SQL.<br>💬 Ask me about processing satellite data, scalable data flow architecture, my experiences as a prefinal-year Computer Engineering student at VIT Mumbai.<br>⚡ Fun fact:(REAL) I think that python >> Java (hehe )
+<!-- ┌──────────────── 🌊 ANIMATED WAVING HEADER ────────────────┐ -->
+![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=250&section=header&text=Shardul%20Chogale&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=AI%20Data%20Engineer%20%7C%20Satellite%20Data%20Wizard%20%7C%20GATE%20DA%20Aspirant&descAlignY=55&descSize=18)
 
+<!-- ┌──────────────── ⌨️ TYPING SVG ────────────────┐ -->
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=100&lines=Building+pipelines+that+process+terabytes+%F0%9F%9A%80;Turning+satellite+data+into+actionable+insights+%F0%9F%9B%B0%EF%B8%8F;Python+%3E%3E+Java+(and+I+will+die+on+this+hill)+%F0%9F%90%8D;Currently+on+a+LeetCode+streak+you+can't+break+%F0%9F%94%A5" alt="Typing SVG" />
+  </a>
+</p>
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/shardul-c-6a3b73273/) [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@shardulchogale1983) [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/Bitter_Shit_406) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/@ShardC008) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:shardulchogale1983@gmail.com) 
+<!-- ┌──────────────── 👀 VISITOR COUNTER ────────────────┐ -->
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=shard-c6&style=for-the-badge&color=00d9ff&label=PROFILE+VIEWS" alt="Profile Views" />
+  <img src="https://img.shields.io/github/followers/shard-c6?style=for-the-badge&color=00d9ff&labelColor=0d1117" alt="Followers" />
+  <img src="https://img.shields.io/github/stars/shard-c6?style=for-the-badge&color=00d9ff&labelColor=0d1117&affiliations=OWNER" alt="Stars" />
+</p>
 
-# 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=flat&logo=c&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=flat&logo=openjdk&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white) ![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=flat&logo=latex&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=flat&logo=markdown&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=flat&logo=powershell&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat&logo=amazon-aws&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=flat&logo=microsoftazure&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat&logo=Cloudflare&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=flat&logo=netlify&logoColor=#00C7B7) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=flat&logo=google-cloud&logoColor=white) ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=flat&logo=render&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=flat&logo=vercel&logoColor=white) ![Apache Spark](https://img.shields.io/badge/Apache%20Spark-FDEE21?style=flat&logo=apachespark&logoColor=black) ![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-000?style=flat&logo=apachekafka) ![Apache Hadoop](https://img.shields.io/badge/Apache%20Hadoop-66CCFF?style=flat&logo=apachehadoop&logoColor=black) ![Apache Hive](https://img.shields.io/badge/Apache%20Hive-FDEE21?style=flat&logo=apachehive&logoColor=black) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi) ![Green Sock](https://img.shields.io/badge/green%20sock-88CE02?style=flat&logo=greensock&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=flat&logo=npm&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=flat&logo=next.js&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=flat&logo=node.js&logoColor=white) ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=flat&logo=opencv&logoColor=white) ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB) ![Snowflake](https://img.shields.io/badge/snowflake-%2329B5E8.svg?style=flat&logo=snowflake&logoColor=white) ![Three js](https://img.shields.io/badge/threejs-black?style=flat&logo=three.js&logoColor=white) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=flat&logo=apache&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=flat&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=flat&logo=mysql&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=flat&logo=postgresql&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=flat&logo=sqlite&logoColor=white) ![Adobe](https://img.shields.io/badge/adobe-%23FF0000.svg?style=flat&logo=adobe&logoColor=white) ![Adobe Acrobat Reader](https://img.shields.io/badge/Adobe%20Acrobat%20Reader-EC1C24.svg?style=flat&logo=Adobe%20Acrobat%20Reader&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=flat&logo=figma&logoColor=white) ![Framer](https://img.shields.io/badge/Framer-black?style=flat&logo=framer&logoColor=blue) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=flat&logo=Matplotlib&logoColor=black) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=flat&logo=plotly&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat&logo=scikit-learn&logoColor=white) ![Scipy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=flat&logo=scipy&logoColor=%white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=flat&logo=TensorFlow&logoColor=white) ![GitLab CI](https://img.shields.io/badge/gitlab%20CI-%23181717.svg?style=flat&logo=gitlab&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=flat&logo=githubactions&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=flat&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=flat&logo=github&logoColor=white) ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=flat&logo=gitlab&logoColor=white) ![Vitest](https://img.shields.io/badge/-Vitest-252529?style=flat&logo=vitest&logoColor=FCC72B) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=flat&logo=kubernetes&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=flat&logo=notion&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=shard-c6&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://streak-stats.demolab.com/?user=shard-c6&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=shard-c6&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+<!-- ┌──────────────── 🌐 CONNECT WITH ME ────────────────┐ -->
+<p align="center">
+  <a href="https://linkedin.com/in/shardul-c-6a3b73273/"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://medium.com/@shardulchogale1983"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" /></a>
+  <a href="https://reddit.com/user/Bitter_Shit_406"><img src="https://img.shields.io/badge/Reddit-%23FF4500.svg?style=for-the-badge&logo=Reddit&logoColor=white" /></a>
+  <a href="https://x.com/@ShardC008"><img src="https://img.shields.io/badge/X-black.svg?style=for-the-badge&logo=X&logoColor=white" /></a>
+  <a href="mailto:shardulchogale1983@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+</p>
 
+---
+
+<!-- ┌──────────────── 📖 ABOUT ME ────────────────┐ -->
+
+## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> About Me
+
+<img align="right" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDFwNnRsMmZtdGFjdmp0Y3o3emR2aHVmczl1bW0xbTg2dHU0eDd0NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif" width="250" />
+
+- 🔭 **Building:** [EVNet Sentinel](https://github.com/shard-c6) · GreenGuard · dehelpers · PaperTrail (OCR/AI/ML)
+- 🎯 **Daily Grind:** LeetCode streak 🔥 + DSA + GATE DA prep
+- 🛰️ **Superpower:** Processing satellite data & scalable data flow architecture
+- 🧠 **Learning:** Apache Kafka · Spark · Advanced SQL · AI/ML for Data Engineering
+- 🏗️ **Dream Role:** AI Data Engineer @ Databricks → Data Architect
+- 📜 **Cert Path:** Databricks Associate DE · Spark Developer · AZ-900 · DP-900
+- 🎓 **Status:** Pre-final year Computer Engineering @ VIT Mumbai
+- ⚡ **Hot Take:** Python >> Java *(and I will die on this hill)* 🐍
+
+<br clear="both"/>
+
+---
+
+<!-- ┌──────────────── 🛠️ TECH STACK ────────────────┐ -->
+
+## 🛠️ Tech Arsenal
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=python,java,c,ts,html,latex,md,powershell&perline=8" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=aws,azure,gcp,cloudflare,netlify,vercel&perline=6" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=kafka,fastapi,nextjs,nodejs,react,threejs&perline=6" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql,supabase,sqlite&perline=5" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv,docker,kubernetes,git,github,gitlab,figma,postman&perline=10" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Apache%20Spark-FDEE21?style=for-the-badge&logo=apachespark&logoColor=black" />
+  <img src="https://img.shields.io/badge/Apache%20Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black" />
+  <img src="https://img.shields.io/badge/Apache%20Hive-FDEE21?style=for-the-badge&logo=apachehive&logoColor=black" />
+  <img src="https://img.shields.io/badge/Snowflake-%2329B5E8.svg?style=for-the-badge&logo=snowflake&logoColor=white" />
+  <img src="https://img.shields.io/badge/NumPy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+  <img src="https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white" />
+  <img src="https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black" />
+  <img src="https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=white" />
+</p>
+
+---
+
+<!-- ┌──────────────── 📊 GITHUB STATS ────────────────┐ -->
+
+## 📊 GitHub Stats
+
+<div align="center">
+  <table>
+    <tr>
+      <td>
+        <img src="https://github-readme-stats.shion.dev/api?username=shard-c6&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9&icon_color=00d9ff&ring_color=00d9ff" alt="GitHub Stats" />
+      </td>
+      <td>
+        <img src="https://streak-stats.demolab.com/?user=shard-c6&theme=tokyonight&hide_border=true&background=0d1117&ring=00d9ff&fire=ff6b6b&currStreakLabel=00d9ff&sideLabels=c9d1d9&currStreakNum=ffffff&sideNums=ffffff&dates=555555" alt="Streak Stats" />
+      </td>
+    </tr>
+  </table>
+</div>
+
+<p align="center">
+  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=shard-c6&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=donut-vertical&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9" alt="Top Languages" width="300" />
+</p>
+
+---
+
+<!-- ┌──────────────── 📈 ACTIVITY GRAPH ────────────────┐ -->
+
+## 📈 Contribution Activity
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shard-c6&bg_color=0d1117&color=00d9ff&line=00d9ff&point=ffffff&area=true&area_color=00d9ff&hide_border=true&custom_title=Shardul's%20Contribution%20Graph" alt="Activity Graph" />
+</p>
+
+---
+
+<!-- ┌──────────────── 🏙️ 3D CONTRIBUTION SKYLINE ────────────────┐ -->
+
+## 🏙️ 3D Contribution Skyline
+
+<!--
+  ⚡ This section requires the GitHub Action in .github/workflows/3d-contrib.yml
+  Run it manually the first time: Actions → GitHub Profile 3D Contrib → Run workflow
+  The SVG will be auto-generated at profile-3d-contrib/profile-night-rainbow.svg
+-->
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green-animate.svg" />
+    <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Calendar" width="100%" />
+  </picture>
+</p>
+
+> 🔮 *This isometric skyline is auto-generated daily via [GitHub Actions](https://github.com/yoshi389111/github-profile-3d-contrib) — each bar represents a day of commits!*
+
+---
+
+<!-- ┌──────────────── 🏆 TROPHIES ────────────────┐ -->
 
 ## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=shard-c6&theme=dark&no-frame=false&no-bg=false&margin-w=4)
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=shard-c6&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=10" alt="Trophies" />
+</p>
 
+---
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+<!-- ┌──────────────── 🐍 SNAKE ANIMATION ────────────────┐ -->
+
+## 🐍 Watch the Snake Devour My Contributions
+
+<!--
+  ⚡ This section requires the GitHub Action in .github/workflows/snake.yml
+  Run it manually the first time: Actions → Generate Snake Animation → Run workflow
+  The SVG will be auto-generated on the 'output' branch
+-->
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shard-c6/shard-c6/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shard-c6/shard-c6/output/github-contribution-grid-snake.svg" />
+    <img src="https://raw.githubusercontent.com/shard-c6/shard-c6/output/github-contribution-grid-snake-dark.svg" alt="Snake eating contributions" width="100%" />
+  </picture>
+</p>
+
+---
+
+<!-- ┌──────────────── ✍️ RANDOM DEV QUOTE ────────────────┐ -->
+
+## ✍️ Random Dev Quote
+
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev Quote" />
+</p>
+
+---
+
+<!-- ┌──────────────── ⚡ FUN STATS ────────────────┐ -->
+
+<details>
+<summary>⚡ Fun Stats & Metrics</summary>
+<br>
+
+<p align="center">
+  <img src="https://github-readme-stats.shion.dev/api/pin/?username=shard-c6&repo=shard-c6&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9&icon_color=00d9ff" alt="Repo Card" />
+</p>
+
+<!--
+  Add more pinned repos here as you build them:
+  <img src="https://github-readme-stats.shion.dev/api/pin/?username=shard-c6&repo=YOUR_REPO_NAME&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9&icon_color=00d9ff" />
+-->
+
+</details>
+
+---
+
+<!-- ┌──────────────── 🌊 ANIMATED WAVING FOOTER ────────────────┐ -->
+
+![footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer)
+
+<p align="center">
+  <i>⭐ From <a href="https://github.com/shard-c6">shard-c6</a> — "Data is the new oil, but only if you know how to refine it." 🛢️</i>
+</p>
