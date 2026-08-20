@@ -224,8 +224,8 @@
 <br>
 
 <p align="center">
-<!-- BEGIN SECTION: Chess -->
-<!-- END SECTION: Chess -->
+<!-- BEGIN CHESS BOARD -->
+<!-- END CHESS BOARD -->
 </p>
 
 </details>
