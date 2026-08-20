@@ -3,18 +3,9 @@
      Backed up original → README_old.md
      ═══════════════════════════════════════════════════════════════════════ -->
 
-<!-- ┌──────────────── 🧠 NEURAL NETWORK HEADER ────────────────┐ -->
+<!-- ┌──────────────── 💻 MACBOOK TERMINAL HEADER ────────────────┐ -->
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Neural Network Animation" />
-</p>
-<h1 align="center">Shardul Chogale</h1>
-<h3 align="center">AI Data Engineer | Satellite Data Wizard | GATE DA Aspirant</h3>
-
-<!-- ┌──────────────── ⌨️ TYPING SVG ────────────────┐ -->
-<p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=100&lines=Building+pipelines+that+process+terabytes+%F0%9F%9A%80;Data,+Cloud,+and+Code.;Python+%3E%3E+Java+(and+I+will+die+on+this+hill)+%F0%9F%90%8D;Currently+on+a+LeetCode+streak+you+can't+break+%F0%9F%94%A5" alt="Typing SVG" />
-  </a>
+  <img src="./assets/macbook-header.svg" width="100%" alt="MacBook Terminal Header" />
 </p>
 
 <!-- ┌──────────────── 👀 VISITOR COUNTER ────────────────┐
@@ -149,9 +140,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-green.svg" />
     <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green-animate.svg" />
-    <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Calendar" width="100%" />
+    <img src="./profile-3d-contrib/profile-night-green.svg" alt="3D Contribution Calendar" width="100%" />
   </picture>
 </p>
 
@@ -218,12 +209,7 @@
 
 ---
 
-<!-- ┌──────────────── 🧠 NEURAL NETWORK FOOTER ────────────────┐ -->
-
+<!-- ┌──────────────── 💻 MACBOOK TERMINAL FOOTER ────────────────┐ -->
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Neural Network Animation" />
-</p>
-
-<p align="center">
-  <i>⭐ From <a href="https://github.com/shard-c6">shard-c6</a> — "Data is the new oil, but only if you know how to refine it." 🛢️</i>
+  <img src="./assets/macbook-footer.svg" width="100%" alt="MacBook Terminal Footer" />
 </p>

@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 370" width="800" height="370">
+  <defs>
+    <style>
+      .bg { fill: #0d1117; }
+      .window-shadow { fill: rgba(0, 0, 0, 0.4); rx: 12px; }
+      .window { fill: #161b22; rx: 10px; stroke: #30363d; stroke-width: 1; }
+      .titlebar { fill: #21262d; }
+      .red { fill: #ff5f56; }
+      .yellow { fill: #ffbd2e; }
+      .green { fill: #27c93f; }
+      .title-text { fill: #8b949e; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; text-anchor: middle; }
+      
+      .code { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 15px; }
+      .prompt { fill: #3fb950; font-weight: bold; }
+      .path { fill: #58a6ff; font-weight: bold; }
+      .cmd { fill: #c9d1d9; }
+      .output { fill: #8b949e; }
+      .highlight { fill: #ff7b72; font-weight: bold; }
+      .string { fill: #a5d6ff; }
+      .cursor { fill: #c9d1d9; animation: blink 1s step-end infinite; }
+      
+      @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+      @keyframes type1 { 0% { opacity: 0; } 5% { opacity: 1; } 100% { opacity: 1; } }
+      @keyframes type2 { 0%, 15% { opacity: 0; } 20% { opacity: 1; } 100% { opacity: 1; } }
+      @keyframes type3 { 0%, 30% { opacity: 0; } 35% { opacity: 1; } 100% { opacity: 1; } }
+      @keyframes type4 { 0%, 45% { opacity: 0; } 50% { opacity: 1; } 100% { opacity: 1; } }
+      @keyframes type5 { 0%, 60% { opacity: 0; } 65% { opacity: 1; } 100% { opacity: 1; } }
+      
+      .line1 { opacity: 0; animation: type1 5s forwards; }
+      .line2 { opacity: 0; animation: type2 5s forwards; }
+      .line3 { opacity: 0; animation: type3 5s forwards; }
+      .line4 { opacity: 0; animation: type4 5s forwards; }
+      .line5 { opacity: 0; animation: type5 5s forwards; }
+    </style>
+  </defs>
+
+  <!-- Background matching Github Dark -->
+  <rect width="100%" height="100%" class="bg"/>
+  
+  <rect x="40" y="30" width="720" height="310" class="window-shadow" />
+  <rect x="40" y="25" width="720" height="310" class="window" />
+  
+  <!-- Titlebar -->
+  <path d="M 40 35 Q 40 25 50 25 L 750 25 Q 760 25 760 35 L 760 55 L 40 55 Z" class="titlebar" />
+  <circle cx="60" cy="40" r="6" class="red" />
+  <circle cx="80" cy="40" r="6" class="yellow" />
+  <circle cx="100" cy="40" r="6" class="green" />
+  <text x="400" y="44" class="title-text">shard-c6 — -zsh — 80x24</text>
+
+  <!-- Terminal Content -->
+  <g class="code">
+    <!-- Line 1 -->
+    <g class="line1">
+      <text x="60" y="90" class="prompt">shardul@macbook</text>
+      <text x="195" y="90" class="path">~</text>
+      <text x="210" y="90" class="cmd">$ whoami</text>
+    </g>
+    <!-- Line 2 -->
+    <g class="line2">
+      <text x="60" y="115" class="output">Shardul Chogale</text>
+    </g>
+    
+    <!-- Line 3 -->
+    <g class="line3">
+      <text x="60" y="150" class="prompt">shardul@macbook</text>
+      <text x="195" y="150" class="path">~</text>
+      <text x="210" y="150" class="cmd">$ fetch-profile --summary</text>
+    </g>
+    <!-- Line 4 -->
+    <g class="line4">
+      <text x="60" y="175" class="highlight">></text>
+      <text x="75" y="175" class="output">AI Data Engineer | Satellite Data Wizard | GATE DA Aspirant</text>
+    </g>
+    
+    <!-- Line 5 -->
+    <g class="line5">
+      <text x="60" y="210" class="prompt">shardul@macbook</text>
+      <text x="195" y="210" class="path">~</text>
+      <text x="210" y="210" class="cmd">$ cat tech_stack.json</text>
+      
+      <text x="60" y="235" class="output">{</text>
+      <text x="75" y="255" class="output">"skills": [<tspan class="string">"Data Engineering"</tspan>, <tspan class="string">"Cloud Architecture"</tspan>, <tspan class="string">"Code"</tspan>],</text>
+      <text x="75" y="275" class="output">"currently": <tspan class="string">"Building scalable data pipelines 🚀"</tspan></text>
+      <text x="60" y="295" class="output">}</text>
+      
+      <text x="60" y="330" class="prompt">shardul@macbook</text>
+      <text x="195" y="330" class="path">~</text>
+      <text x="210" y="330" class="cmd">$</text>
+      <rect x="225" y="318" width="8" height="15" class="cursor" />
+    </g>
+  </g>
+</svg>

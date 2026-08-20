@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 160" width="800" height="160">
+  <defs>
+    <style>
+      .bg { fill: #0d1117; }
+      .window-shadow { fill: rgba(0, 0, 0, 0.4); rx: 12px; }
+      .window { fill: #161b22; rx: 10px; stroke: #30363d; stroke-width: 1; }
+      .titlebar { fill: #21262d; }
+      .red { fill: #ff5f56; }
+      .yellow { fill: #ffbd2e; }
+      .green { fill: #27c93f; }
+      .title-text { fill: #8b949e; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; text-anchor: middle; }
+      
+      .code { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 15px; }
+      .prompt { fill: #3fb950; font-weight: bold; }
+      .path { fill: #58a6ff; font-weight: bold; }
+      .cmd { fill: #c9d1d9; }
+      .output { fill: #8b949e; font-style: italic; }
+      .cursor { fill: #c9d1d9; animation: blink 1s step-end infinite; }
+      
+      @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+    </style>
+  </defs>
+
+  <!-- Background matching Github Dark -->
+  <rect width="100%" height="100%" class="bg"/>
+  
+  <rect x="40" y="10" width="720" height="140" class="window-shadow" />
+  <rect x="40" y="5" width="720" height="140" class="window" />
+  
+  <!-- Titlebar -->
+  <path d="M 40 15 Q 40 5 50 5 L 750 5 Q 760 5 760 15 L 760 35 L 40 35 Z" class="titlebar" />
+  <circle cx="60" cy="20" r="6" class="red" />
+  <circle cx="80" cy="20" r="6" class="yellow" />
+  <circle cx="100" cy="20" r="6" class="green" />
+  <text x="400" y="24" class="title-text">shard-c6 — -zsh — 80x24</text>
+
+  <!-- Terminal Content -->
+  <g class="code">
+    <text x="60" y="75" class="prompt">shardul@macbook</text>
+    <text x="195" y="75" class="path">~</text>
+    <text x="210" y="75" class="cmd">$ echo "Data is the new oil, but only if you know how to refine it."</text>
+    
+    <text x="60" y="105" class="output">⭐ Data is the new oil, but only if you know how to refine it. 🛢️</text>
+    
+    <text x="60" y="135" class="prompt">shardul@macbook</text>
+    <text x="195" y="135" class="path">~</text>
+    <text x="210" y="135" class="cmd">$ exit</text>
+    <rect x="270" y="123" width="8" height="15" class="cursor" />
+  </g>
+</svg>
