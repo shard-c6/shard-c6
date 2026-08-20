@@ -20,6 +20,7 @@
       fill: #39FF14;
       font-weight: bold;
       opacity: 0;
+      animation: type 0.1s forwards;
     }
     .author-text {
       font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
@@ -28,6 +29,7 @@
       font-weight: normal;
       font-style: italic;
       opacity: 0;
+      animation: type 0.1s forwards;
     }
     .cursor {
       font-family: 'JetBrains Mono', monospace;
@@ -35,26 +37,13 @@
       fill: #39FF14;
     }
 
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateX(-5px); }
-      to { opacity: 1; transform: translateX(0); }
+    @keyframes type {
+      to { opacity: 1; }
     }
     @keyframes blink {
       0%, 100% { opacity: 1; }
       50% { opacity: 0; }
     }
-
-    /* Quote 1 cycle: visible 0-8s */
-    .q1 { animation: fadeIn 0.3s 0.5s forwards; }
-    .q1a { animation: fadeIn 0.3s 1.2s forwards; }
-
-    /* Quote 2 cycle: visible 8-16s */
-    .q2 { animation: fadeIn 0.3s 8.5s forwards; }
-    .q2a { animation: fadeIn 0.3s 9.2s forwards; }
-
-    /* Quote 3 cycle: visible 16-24s */
-    .q3 { animation: fadeIn 0.3s 16.5s forwards; }
-    .q3a { animation: fadeIn 0.3s 17.2s forwards; }
 
     .blink-cursor {
       animation: blink 1s step-end infinite;
@@ -77,23 +66,10 @@
 
   <!-- Prompt -->
   <text x="20" y="60" class="prompt">$ fortune | cowthink</text>
-
-  <!-- Quote 1 -->
-  <text x="20" y="90" class="quote-text q1">"Data is the new oil, but only if you know how</text>
-  <text x="20" y="110" class="quote-text q1"> to refine it."</text>
-  <text x="20" y="140" class="author-text q1a">— Clive Humby</text>
-
-  <!-- Quote 2 (appears after first disappears) -->
-  <text x="20" y="90" class="quote-text q2">"The goal is to turn data into information, and</text>
-  <text x="20" y="110" class="quote-text q2"> information into insight."</text>
-  <text x="20" y="140" class="author-text q2a">— Carly Fiorina</text>
-
-  <!-- Quote 3 -->
-  <text x="20" y="90" class="quote-text q3">"Without big data analytics, companies are</text>
-  <text x="20" y="110" class="quote-text q3"> blind and deaf, wandering onto the web</text>
-  <text x="20" y="130" class="quote-text q3"> like deer on a freeway."</text>
-  <text x="20" y="160" class="author-text q3a">— Geoffrey Moore</text>
+  <text x="20" y="90" class="quote-text" style="animation-delay: 0.5s">"Computers are good at following instructions,</text>
+  <text x="20" y="110" class="quote-text" style="animation-delay: 0.7s">but not at reading your mind."</text>
+  <text x="20" y="140" class="author-text" style="animation-delay: 0.8999999999999999s">— Donald Knuth</text>
 
   <!-- Prompt 2 -->
-  <text x="20" y="190" class="prompt">$ <tspan class="blink-cursor">▊</tspan></text>
+  <text x="20" y="180" class="prompt" style="opacity: 0; animation: type 0.1s 1.4s forwards">$ <tspan class="blink-cursor">▊</tspan></text>
 </svg>

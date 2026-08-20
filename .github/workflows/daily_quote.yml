@@ -1,0 +1,32 @@
+name: Daily Dev Quote
+
+on:
+  schedule:
+    # Runs at 02:30 UTC every day (8:00 AM IST)
+    - cron: '30 2 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-quote:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Generate Quote SVG
+        run: python scripts/generate_quotes.py
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/quotes-terminal.svg
+          git commit -m "Update daily dev quote" || echo "No changes to commit"
+          git push
