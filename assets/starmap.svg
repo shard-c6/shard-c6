@@ -1,0 +1,338 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" width="900" height="500">
+  <defs>
+    <!-- Nebula gradient -->
+    <radialGradient id="nebula1" cx="30%" cy="40%" r="40%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.15"/>
+      <stop offset="50%" stop-color="#8b5cf6" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="nebula2" cx="70%" cy="60%" r="35%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.12"/>
+      <stop offset="50%" stop-color="#0891b2" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="nebula3" cx="50%" cy="30%" r="30%">
+      <stop offset="0%" stop-color="#ec4899" stop-opacity="0.1"/>
+      <stop offset="50%" stop-color="#be185d" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Star glow filter -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glow-strong" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="nebula-blur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="30"/>
+    </filter>
+
+    <style>
+      @keyframes twinkle {
+        0%, 100% { opacity: 0.3; }
+        50% { opacity: 1; }
+      }
+      @keyframes twinkle-slow {
+        0%, 100% { opacity: 0.5; }
+        50% { opacity: 0.9; }
+      }
+      @keyframes pulse {
+        0%, 100% { r: 3; opacity: 0.8; }
+        50% { r: 4.5; opacity: 1; }
+      }
+      @keyframes drift {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-3px); }
+      }
+      .bg { fill: #0d1117; }
+      .bg-star {
+        fill: #ffffff;
+        opacity: 0.4;
+      }
+      .constellation-star {
+        fill: #39FF14;
+        filter: url(#glow);
+      }
+      .project-star {
+        fill: #00d9ff;
+        filter: url(#glow-strong);
+      }
+      .constellation-line {
+        stroke: #39FF14;
+        stroke-width: 0.5;
+        stroke-opacity: 0.25;
+        stroke-dasharray: 4 4;
+      }
+      .label {
+        font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+        font-size: 9px;
+        fill: #8b949e;
+        text-anchor: middle;
+      }
+      .project-label {
+        font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+        font-size: 11px;
+        fill: #00d9ff;
+        font-weight: bold;
+        text-anchor: middle;
+      }
+      .title {
+        font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+        font-size: 11px;
+        fill: #484f58;
+        text-anchor: end;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+      }
+      .coord {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 7px;
+        fill: #30363d;
+        text-anchor: start;
+      }
+    </style>
+  </defs>
+
+  <!-- Deep space background -->
+  <rect width="100%" height="100%" class="bg"/>
+
+  <!-- Nebula clouds -->
+  <ellipse cx="270.0" cy="200.0" rx="250" ry="180" fill="url(#nebula1)" filter="url(#nebula-blur)"/>
+  <ellipse cx="630.0" cy="300.0" rx="200" ry="150" fill="url(#nebula2)" filter="url(#nebula-blur)"/>
+  <ellipse cx="450.0" cy="125.0" rx="180" ry="120" fill="url(#nebula3)" filter="url(#nebula-blur)"/>
+  <circle cx="659" cy="62" r="0.32250967970040023" class="bg-star" style="animation: twinkle 3.100117273476477s 1.1160536907441139s ease-in-out infinite; opacity: 0.5682356070820062"/>
+  <circle cx="697" cy="384" r="1.1029616109343607" class="bg-star" style="animation: twinkle 2.3477553305176646s 2.1096090984263522s ease-in-out infinite; opacity: 0.21489860971903518"/>
+  <circle cx="228" cy="124" r="0.7548197592930261" class="bg-star" style="animation: twinkle 2.1061438787354545s 0.9941882534332425s ease-in-out infinite; opacity: 0.5249422188897616"/>
+  <circle cx="563" cy="219" r="0.498396559836627" class="bg-star" style="animation: twinkle 4.357062735503635s 4.047152283389133s ease-in-out infinite; opacity: 0.20324937983903052"/>
+  <circle cx="830" cy="86" r="0.928325455489404" class="bg-star" style="animation: twinkle 3.3610020660719675s 0.7773974990589078s ease-in-out infinite; opacity: 0.6786065361033906"/>
+  <circle cx="349" cy="57" r="0.3834712590421331" class="bg-star" style="animation: twinkle 2.386865507333856s 4.237471831737299s ease-in-out infinite; opacity: 0.5018630156834455"/>
+  <circle cx="831" cy="27" r="0.9567586080244361" class="bg-star" style="animation: twinkle 4.1449123658188025s 4.865578819896853s ease-in-out infinite; opacity: 0.38926718860417675"/>
+  <circle cx="570" cy="155" r="1.0464641978276954" class="bg-star" style="animation: twinkle 4.474079009456984s 4.308534501553886s ease-in-out infinite; opacity: 0.488676072628381"/>
+  <circle cx="726" cy="40" r="0.341241945290096" class="bg-star" style="animation: twinkle 2.9115931026061874s 1.4469398180105357s ease-in-out infinite; opacity: 0.23989598846181376"/>
+  <circle cx="243" cy="448" r="0.3909012864687562" class="bg-star" style="animation: twinkle 3.1118944124403685s 3.178422221322001s ease-in-out infinite; opacity: 0.38241608948504213"/>
+  <circle cx="384" cy="186" r="0.4885563276943389" class="bg-star" style="animation: twinkle 3.0679112881964534s 4.68327293856247s ease-in-out infinite; opacity: 0.5240176926232967"/>
+  <circle cx="628" cy="330" r="0.4540247833782872" class="bg-star" style="animation: twinkle 4.916507191801397s 0.817012468809642s ease-in-out infinite; opacity: 0.3897277208788239"/>
+  <circle cx="660" cy="357" r="0.8012547693971817" class="bg-star" style="animation: twinkle 4.738457003959498s 4.214259600949048s ease-in-out infinite; opacity: 0.5879999557731224"/>
+  <circle cx="239" cy="425" r="0.32889021951363395" class="bg-star" style="animation: twinkle 3.2618121922363277s 1.3387043798785137s ease-in-out infinite; opacity: 0.30549142179316324"/>
+  <circle cx="585" cy="453" r="0.9461228436470783" class="bg-star" style="animation: twinkle 2.8505061762165624s 2.4961562974613867s ease-in-out infinite; opacity: 0.6423415769433511"/>
+  <circle cx="663" cy="239" r="0.4285844313978564" class="bg-star" style="animation: twinkle 2.5585212781020252s 3.7249449104580328s ease-in-out infinite; opacity: 0.46948864483364516"/>
+  <circle cx="769" cy="304" r="0.6855904445651217" class="bg-star" style="animation: twinkle 4.334131699782625s 1.8099822185680547s ease-in-out infinite; opacity: 0.6986628889945805"/>
+  <circle cx="146" cy="265" r="0.7441642514006679" class="bg-star" style="animation: twinkle 5.023128630134951s 4.3055145483333295s ease-in-out infinite; opacity: 0.27642065967413054"/>
+  <circle cx="168" cy="410" r="0.9124330921466943" class="bg-star" style="animation: twinkle 4.385636122927895s 1.9238365583725003s ease-in-out infinite; opacity: 0.497944214180564"/>
+  <circle cx="484" cy="275" r="0.5262727079836318" class="bg-star" style="animation: twinkle 4.2129035848611505s 4.712154306899049s ease-in-out infinite; opacity: 0.5401417051282592"/>
+  <circle cx="122" cy="354" r="1.096309605116198" class="bg-star" style="animation: twinkle 5.003511198366439s 3.8429936632872295s ease-in-out infinite; opacity: 0.3700877365155226"/>
+  <circle cx="305" cy="227" r="0.4423419789102027" class="bg-star" style="animation: twinkle 2.012981264406917s 3.610460306549554s ease-in-out infinite; opacity: 0.5598403344429621"/>
+  <circle cx="517" cy="395" r="0.46078669247711823" class="bg-star" style="animation: twinkle 5.650511357379282s 4.352592849183835s ease-in-out infinite; opacity: 0.34922239572431646"/>
+  <circle cx="659" cy="264" r="0.848073190294355" class="bg-star" style="animation: twinkle 2.6113570741985392s 3.8125540003757563s ease-in-out infinite; opacity: 0.4696895150598128"/>
+  <circle cx="802" cy="477" r="0.7773183049756597" class="bg-star" style="animation: twinkle 2.002287584511774s 1.6207802850233655s ease-in-out infinite; opacity: 0.20973837119291616"/>
+  <circle cx="376" cy="454" r="1.186789241049431" class="bg-star" style="animation: twinkle 5.227099219188515s 1.197261551690294s ease-in-out infinite; opacity: 0.32043579622361656"/>
+  <circle cx="585" cy="489" r="0.37088134346222945" class="bg-star" style="animation: twinkle 4.9276303793785114s 4.0801162671004425s ease-in-out infinite; opacity: 0.6889922468386671"/>
+  <circle cx="550" cy="397" r="0.4131844603683972" class="bg-star" style="animation: twinkle 4.63900329098947s 4.734243398524955s ease-in-out infinite; opacity: 0.28256347948706384"/>
+  <circle cx="545" cy="451" r="0.845934525734366" class="bg-star" style="animation: twinkle 5.857451624029821s 4.644567465010884s ease-in-out infinite; opacity: 0.5776325983179027"/>
+  <circle cx="711" cy="107" r="0.9416540755372096" class="bg-star" style="animation: twinkle 3.5959691999897165s 3.358434798191415s ease-in-out infinite; opacity: 0.38671025126464686"/>
+  <circle cx="534" cy="236" r="0.40890377628143915" class="bg-star" style="animation: twinkle 2.8987893481262295s 1.6904278107372765s ease-in-out infinite; opacity: 0.4941543592286166"/>
+  <circle cx="240" cy="306" r="0.4981956460064035" class="bg-star" style="animation: twinkle 2.28397234403613s 3.1555147863504946s ease-in-out infinite; opacity: 0.3144708919055772"/>
+  <circle cx="37" cy="445" r="0.5973856401724488" class="bg-star" style="animation: twinkle 4.056624479234356s 1.3923863198227349s ease-in-out infinite; opacity: 0.4427072495752453"/>
+  <circle cx="557" cy="72" r="0.9510173092928738" class="bg-star" style="animation: twinkle 5.52953230056295s 2.8810582486044995s ease-in-out infinite; opacity: 0.32149862119786227"/>
+  <circle cx="489" cy="418" r="0.6663539653373429" class="bg-star" style="animation: twinkle 2.377303185967529s 3.2949137475733155s ease-in-out infinite; opacity: 0.37714878329477686"/>
+  <circle cx="425" cy="244" r="1.0774530735326429" class="bg-star" style="animation: twinkle 2.216684748928682s 3.267277441328958s ease-in-out infinite; opacity: 0.5230898756474922"/>
+  <circle cx="67" cy="211" r="0.9553922295970643" class="bg-star" style="animation: twinkle 5.202370043446795s 0.54634516122402s ease-in-out infinite; opacity: 0.295795036070827"/>
+  <circle cx="554" cy="234" r="0.426164067385297" class="bg-star" style="animation: twinkle 2.733952143148933s 2.3131403420048366s ease-in-out infinite; opacity: 0.6372429770352899"/>
+  <circle cx="82" cy="231" r="1.0272200202585322" class="bg-star" style="animation: twinkle 5.423867569873491s 0.48954364100800174s ease-in-out infinite; opacity: 0.526072446999261"/>
+  <circle cx="558" cy="433" r="0.31328207084608545" class="bg-star" style="animation: twinkle 2.3730511047353438s 3.767827520098378s ease-in-out infinite; opacity: 0.31818974527087474"/>
+  <circle cx="421" cy="253" r="0.7332225761739355" class="bg-star" style="animation: twinkle 5.458601576120862s 4.512214327552743s ease-in-out infinite; opacity: 0.28231856070076344"/>
+  <circle cx="7" cy="204" r="0.5386827523549367" class="bg-star" style="animation: twinkle 5.136282407794278s 2.2750418366957166s ease-in-out infinite; opacity: 0.4115037429950814"/>
+  <circle cx="753" cy="406" r="0.8001914910650563" class="bg-star" style="animation: twinkle 4.873633101185304s 0.7739841263703207s ease-in-out infinite; opacity: 0.3483539127472821"/>
+  <circle cx="64" cy="301" r="0.962163460910139" class="bg-star" style="animation: twinkle 2.2438302859060633s 1.5680240488486463s ease-in-out infinite; opacity: 0.2250711686319768"/>
+  <circle cx="493" cy="262" r="1.1274484177488677" class="bg-star" style="animation: twinkle 4.124504541082166s 0.2843978986434226s ease-in-out infinite; opacity: 0.4539142484967092"/>
+  <circle cx="876" cy="100" r="0.3616691994334131" class="bg-star" style="animation: twinkle 2.271843453503029s 4.309096009850647s ease-in-out infinite; opacity: 0.4018877756591387"/>
+  <circle cx="588" cy="131" r="0.8210271517564895" class="bg-star" style="animation: twinkle 2.1589666491562576s 0.4099170274743774s ease-in-out infinite; opacity: 0.5286865822362612"/>
+  <circle cx="583" cy="272" r="0.5847328613790543" class="bg-star" style="animation: twinkle 3.0430627824145313s 3.348629873849146s ease-in-out infinite; opacity: 0.35709193139778805"/>
+  <circle cx="276" cy="207" r="0.4177904539147108" class="bg-star" style="animation: twinkle 4.582003155350598s 2.28612286285226s ease-in-out infinite; opacity: 0.6645091658527571"/>
+  <circle cx="79" cy="9" r="0.7124569703567274" class="bg-star" style="animation: twinkle 5.99381776341777s 4.980482239275473s ease-in-out infinite; opacity: 0.2366303605498165"/>
+  <circle cx="223" cy="264" r="0.5386803732753611" class="bg-star" style="animation: twinkle 5.733037511974836s 4.4043208684321975s ease-in-out infinite; opacity: 0.6396351212422713"/>
+  <circle cx="383" cy="150" r="0.44197214912150873" class="bg-star" style="animation: twinkle 5.334979818559228s 3.5176996254368547s ease-in-out infinite; opacity: 0.505838882862975"/>
+  <circle cx="831" cy="339" r="0.776046623342043" class="bg-star" style="animation: twinkle 4.671452814850334s 2.773011412448389s ease-in-out infinite; opacity: 0.6658780197180387"/>
+  <circle cx="111" cy="485" r="1.0903142684762328" class="bg-star" style="animation: twinkle 3.0578636859485107s 4.448563535028546s ease-in-out infinite; opacity: 0.5712083419904993"/>
+  <circle cx="164" cy="144" r="0.5535806443121047" class="bg-star" style="animation: twinkle 2.8425186192277723s 1.7144014389662932s ease-in-out infinite; opacity: 0.5437485644006652"/>
+  <circle cx="878" cy="140" r="0.7548681522881884" class="bg-star" style="animation: twinkle 3.0044850082795764s 4.54079523109286s ease-in-out infinite; opacity: 0.22539944683126534"/>
+  <circle cx="654" cy="221" r="1.0464132804349973" class="bg-star" style="animation: twinkle 2.1763470471962s 1.667782693025441s ease-in-out infinite; opacity: 0.26540983035085114"/>
+  <circle cx="273" cy="87" r="0.9671078175131376" class="bg-star" style="animation: twinkle 4.206721684505565s 2.138434594903397s ease-in-out infinite; opacity: 0.20483484980417"/>
+  <circle cx="82" cy="488" r="1.0947957539701285" class="bg-star" style="animation: twinkle 5.615714286239573s 2.7279514460276117s ease-in-out infinite; opacity: 0.6172975099430082"/>
+  <circle cx="601" cy="287" r="0.43328440701073434" class="bg-star" style="animation: twinkle 2.509782077128555s 1.5412917496506684s ease-in-out infinite; opacity: 0.649490744371295"/>
+  <circle cx="820" cy="445" r="0.33590539030009636" class="bg-star" style="animation: twinkle 3.4312369290017046s 3.4103334415528823s ease-in-out infinite; opacity: 0.5334667053177715"/>
+  <circle cx="367" cy="404" r="0.8038951672294827" class="bg-star" style="animation: twinkle 5.498850894164365s 4.869185113186445s ease-in-out infinite; opacity: 0.5747388055717696"/>
+  <circle cx="247" cy="447" r="0.44625159039039475" class="bg-star" style="animation: twinkle 5.199548119627586s 0.8852618516019062s ease-in-out infinite; opacity: 0.4061472051768986"/>
+  <circle cx="188" cy="382" r="1.132038565717391" class="bg-star" style="animation: twinkle 5.129545984590527s 2.0585658327577683s ease-in-out infinite; opacity: 0.5349535646440984"/>
+  <circle cx="757" cy="420" r="0.5233505170056606" class="bg-star" style="animation: twinkle 2.636791371922925s 3.5063909406995633s ease-in-out infinite; opacity: 0.3912708612984671"/>
+  <circle cx="44" cy="444" r="0.7236210189773913" class="bg-star" style="animation: twinkle 2.7982913201030075s 4.592259506147475s ease-in-out infinite; opacity: 0.3748292122229593"/>
+  <circle cx="845" cy="412" r="1.0841907322767073" class="bg-star" style="animation: twinkle 2.891694188823236s 3.300165913743145s ease-in-out infinite; opacity: 0.3992329892823917"/>
+  <circle cx="290" cy="447" r="0.3624786791965379" class="bg-star" style="animation: twinkle 5.093306549761444s 1.7557306454137611s ease-in-out infinite; opacity: 0.45470283776401865"/>
+  <circle cx="700" cy="436" r="0.7825941592308496" class="bg-star" style="animation: twinkle 5.756948561298863s 0.5767087592571379s ease-in-out infinite; opacity: 0.685200305511114"/>
+  <circle cx="187" cy="302" r="1.1662808841853998" class="bg-star" style="animation: twinkle 3.0618654500918745s 0.5420127360735555s ease-in-out infinite; opacity: 0.4172818792823222"/>
+  <circle cx="751" cy="407" r="0.582309582775492" class="bg-star" style="animation: twinkle 4.424835413224573s 2.5571152983473904s ease-in-out infinite; opacity: 0.39259771667236354"/>
+  <circle cx="595" cy="102" r="0.5292502555247237" class="bg-star" style="animation: twinkle 4.835141135336682s 0.00845639109314733s ease-in-out infinite; opacity: 0.6627875827495413"/>
+  <circle cx="556" cy="356" r="0.947486999230361" class="bg-star" style="animation: twinkle 4.967800311357906s 3.3531425221649975s ease-in-out infinite; opacity: 0.38211073589063205"/>
+  <circle cx="76" cy="490" r="0.8978139164201451" class="bg-star" style="animation: twinkle 3.3208001441703856s 1.5695782252917985s ease-in-out infinite; opacity: 0.6240076397531678"/>
+  <circle cx="742" cy="465" r="0.5702900413901377" class="bg-star" style="animation: twinkle 3.237138648834613s 2.041964543096084s ease-in-out infinite; opacity: 0.40120019352886227"/>
+  <circle cx="307" cy="288" r="0.4145590191532379" class="bg-star" style="animation: twinkle 3.681785335091633s 4.701818353650915s ease-in-out infinite; opacity: 0.5386589726363664"/>
+  <circle cx="183" cy="320" r="0.8121947293792284" class="bg-star" style="animation: twinkle 3.6243006750326514s 4.168625846520287s ease-in-out infinite; opacity: 0.3519374746341769"/>
+  <circle cx="220" cy="225" r="1.007182944729822" class="bg-star" style="animation: twinkle 4.426646281919051s 1.6112461486826906s ease-in-out infinite; opacity: 0.4208930084189765"/>
+  <circle cx="696" cy="114" r="0.7600565971871283" class="bg-star" style="animation: twinkle 5.1749415964240075s 4.799160018415181s ease-in-out infinite; opacity: 0.5679807229701108"/>
+  <circle cx="679" cy="48" r="0.5554077644937246" class="bg-star" style="animation: twinkle 4.6554153452199944s 3.0963040268118776s ease-in-out infinite; opacity: 0.24669360003778135"/>
+  <circle cx="774" cy="125" r="0.9055161035014503" class="bg-star" style="animation: twinkle 2.898562663989153s 0.9956496636328832s ease-in-out infinite; opacity: 0.21221269386341318"/>
+  <circle cx="255" cy="248" r="0.850146575754612" class="bg-star" style="animation: twinkle 5.073957356000788s 2.2770808419004456s ease-in-out infinite; opacity: 0.6430684545254908"/>
+  <circle cx="594" cy="104" r="0.9465113239490897" class="bg-star" style="animation: twinkle 3.5359138695710053s 1.9982643143826884s ease-in-out infinite; opacity: 0.2737856725456491"/>
+  <circle cx="709" cy="7" r="1.1033938435902297" class="bg-star" style="animation: twinkle 5.441762261690085s 4.42732602754933s ease-in-out infinite; opacity: 0.5892102033836625"/>
+  <circle cx="229" cy="95" r="1.0236988705558285" class="bg-star" style="animation: twinkle 4.783647105632953s 2.3227494228712606s ease-in-out infinite; opacity: 0.4787028970166976"/>
+  <circle cx="873" cy="67" r="0.7108156429231552" class="bg-star" style="animation: twinkle 5.205666406889058s 3.3378886629317654s ease-in-out infinite; opacity: 0.6939462265332239"/>
+  <circle cx="614" cy="167" r="1.1550356475988401" class="bg-star" style="animation: twinkle 5.5657037032417485s 3.0632616138088142s ease-in-out infinite; opacity: 0.5596369806379835"/>
+  <circle cx="521" cy="223" r="1.0475122527492735" class="bg-star" style="animation: twinkle 4.191487802443314s 4.486040516166311s ease-in-out infinite; opacity: 0.5718277210797924"/>
+  <circle cx="491" cy="235" r="0.5332723936185174" class="bg-star" style="animation: twinkle 2.988958950038638s 3.1883071838807813s ease-in-out infinite; opacity: 0.5829068421485827"/>
+  <circle cx="538" cy="253" r="0.864073593283603" class="bg-star" style="animation: twinkle 3.098389787670153s 0.3874167693236791s ease-in-out infinite; opacity: 0.34286407543157627"/>
+  <circle cx="283" cy="176" r="0.587738611576886" class="bg-star" style="animation: twinkle 4.160608890073826s 0.6918703075807786s ease-in-out infinite; opacity: 0.3156307398640934"/>
+  <circle cx="715" cy="83" r="0.9357772275250968" class="bg-star" style="animation: twinkle 2.2569154028555123s 2.0379968483329334s ease-in-out infinite; opacity: 0.47130557025195763"/>
+  <circle cx="430" cy="36" r="0.4861509505629692" class="bg-star" style="animation: twinkle 3.6805740710937025s 4.524192391700884s ease-in-out infinite; opacity: 0.49203970710211253"/>
+  <circle cx="717" cy="15" r="1.0710588290735408" class="bg-star" style="animation: twinkle 5.062378304472277s 1.9019051446385582s ease-in-out infinite; opacity: 0.20294804179199655"/>
+  <circle cx="365" cy="157" r="0.9781276125534473" class="bg-star" style="animation: twinkle 5.413791802276418s 4.767151692350532s ease-in-out infinite; opacity: 0.4095106413149109"/>
+  <circle cx="770" cy="381" r="0.7915190787604551" class="bg-star" style="animation: twinkle 4.413010355764966s 1.1026934716190944s ease-in-out infinite; opacity: 0.3097108173107181"/>
+  <circle cx="451" cy="253" r="0.3261223379520437" class="bg-star" style="animation: twinkle 3.3445181747935298s 3.3957094251417486s ease-in-out infinite; opacity: 0.40215833456881855"/>
+  <circle cx="174" cy="435" r="0.7206511343090791" class="bg-star" style="animation: twinkle 2.5105111891246428s 3.1112848048703237s ease-in-out infinite; opacity: 0.21348322595256886"/>
+  <circle cx="408" cy="308" r="0.8079527847222967" class="bg-star" style="animation: twinkle 2.1084081853612497s 3.213748240046679s ease-in-out infinite; opacity: 0.26784974361528213"/>
+  <circle cx="477" cy="98" r="0.3452561701397648" class="bg-star" style="animation: twinkle 3.5164154567525583s 1.0583014210574078s ease-in-out infinite; opacity: 0.3634229024406542"/>
+  <circle cx="784" cy="455" r="0.6412135940077226" class="bg-star" style="animation: twinkle 5.00803929421914s 4.159621425776363s ease-in-out infinite; opacity: 0.3261357658911903"/>
+  <circle cx="88" cy="245" r="0.31744495834500963" class="bg-star" style="animation: twinkle 4.157676191690134s 4.9995391425460465s ease-in-out infinite; opacity: 0.3749801718600919"/>
+  <circle cx="670" cy="40" r="1.0031097446498054" class="bg-star" style="animation: twinkle 4.607018620975557s 3.771166020297631s ease-in-out infinite; opacity: 0.6748058663579943"/>
+  <circle cx="209" cy="434" r="0.3183420155882991" class="bg-star" style="animation: twinkle 2.6095293831391615s 0.6311048743710312s ease-in-out infinite; opacity: 0.5347294223099552"/>
+  <circle cx="582" cy="490" r="0.4961680868158532" class="bg-star" style="animation: twinkle 4.797859884984604s 3.834490491781204s ease-in-out infinite; opacity: 0.28389457168390114"/>
+  <circle cx="626" cy="387" r="0.9465215057364074" class="bg-star" style="animation: twinkle 5.111167544701731s 0.8188290508359958s ease-in-out infinite; opacity: 0.3555194597992999"/>
+  <circle cx="597" cy="18" r="1.1359984515664094" class="bg-star" style="animation: twinkle 4.3031869136496566s 4.5401307552372225s ease-in-out infinite; opacity: 0.3876534797126592"/>
+  <circle cx="737" cy="106" r="0.36839683005875395" class="bg-star" style="animation: twinkle 4.762457663731921s 3.136211978005222s ease-in-out infinite; opacity: 0.2509506527229883"/>
+  <circle cx="796" cy="159" r="1.0652639151799166" class="bg-star" style="animation: twinkle 4.4016464592673765s 0.6052753253365756s ease-in-out infinite; opacity: 0.6919221757573356"/>
+  <circle cx="806" cy="26" r="0.612483388777604" class="bg-star" style="animation: twinkle 3.713512052938978s 1.8528543810902809s ease-in-out infinite; opacity: 0.4529803948385389"/>
+  <circle cx="354" cy="11" r="1.0646180642996195" class="bg-star" style="animation: twinkle 5.289323672360233s 0.5276943532199929s ease-in-out infinite; opacity: 0.6803937836072893"/>
+  <circle cx="655" cy="461" r="1.0458365799022122" class="bg-star" style="animation: twinkle 4.829234574824308s 2.1774357250383853s ease-in-out infinite; opacity: 0.566897652006696"/>
+  <circle cx="671" cy="143" r="0.8543211186481958" class="bg-star" style="animation: twinkle 5.678470627611068s 3.873207251857873s ease-in-out infinite; opacity: 0.4324368858172539"/>
+  <circle cx="850" cy="379" r="0.8332271571573315" class="bg-star" style="animation: twinkle 3.2892183319244728s 1.2274758454684542s ease-in-out infinite; opacity: 0.667310939307"/>
+  <circle cx="290" cy="456" r="0.7057218001743935" class="bg-star" style="animation: twinkle 5.001905127308024s 2.849248223391611s ease-in-out infinite; opacity: 0.5340942352227467"/>
+  <circle cx="349" cy="19" r="0.7448758532543298" class="bg-star" style="animation: twinkle 3.300056671555038s 2.4377496619567216s ease-in-out infinite; opacity: 0.37741248308804765"/>
+  <circle cx="269" cy="179" r="0.5516926392338273" class="bg-star" style="animation: twinkle 4.3846200317497175s 4.400536726276151s ease-in-out infinite; opacity: 0.47789551395979185"/>
+  <circle cx="534" cy="490" r="0.47195078117438893" class="bg-star" style="animation: twinkle 2.9654242014907197s 2.0321406233525963s ease-in-out infinite; opacity: 0.47758810579093036"/>
+  <circle cx="251" cy="358" r="0.7284837997057482" class="bg-star" style="animation: twinkle 4.847369625890891s 2.240872747932854s ease-in-out infinite; opacity: 0.20862162967418635"/>
+  <circle cx="306" cy="118" r="0.6639610158101352" class="bg-star" style="animation: twinkle 2.9732206555070286s 3.31980010798408s ease-in-out infinite; opacity: 0.3845102253305185"/>
+
+  <!-- Constellation Lines -->
+  <line x1="636" y1="361" x2="723" y2="341" class="constellation-line"/>
+  <line x1="636" y1="361" x2="550" y2="335" class="constellation-line"/>
+  <line x1="422" y1="307" x2="347" y2="246" class="constellation-line"/>
+  <line x1="422" y1="307" x2="353" y2="391" class="constellation-line"/>
+  <line x1="633" y1="259" x2="636" y2="361" class="constellation-line"/>
+  <line x1="633" y1="259" x2="550" y2="335" class="constellation-line"/>
+  <line x1="347" y1="246" x2="253" y2="244" class="constellation-line"/>
+  <line x1="193" y1="188" x2="253" y2="244" class="constellation-line"/>
+  <line x1="193" y1="188" x2="258" y2="116" class="constellation-line"/>
+  <line x1="393" y1="151" x2="347" y2="246" class="constellation-line"/>
+  <line x1="393" y1="151" x2="258" y2="116" class="constellation-line"/>
+  <line x1="830" y1="364" x2="723" y2="341" class="constellation-line"/>
+  <line x1="830" y1="364" x2="776" y2="184" class="constellation-line"/>
+  <line x1="776" y1="184" x2="714" y2="117" class="constellation-line"/>
+  <line x1="776" y1="184" x2="633" y2="259" class="constellation-line"/>
+  <line x1="353" y1="391" x2="496" y2="400" class="constellation-line"/>
+  <line x1="84" y1="363" x2="191" y2="375" class="constellation-line"/>
+  <line x1="84" y1="363" x2="193" y2="188" class="constellation-line"/>
+  <line x1="116" y1="117" x2="193" y2="188" class="constellation-line"/>
+  <line x1="116" y1="117" x2="258" y2="116" class="constellation-line"/>
+  <line x1="550" y1="335" x2="496" y2="400" class="constellation-line"/>
+  <line x1="258" y1="116" x2="253" y2="244" class="constellation-line"/>
+  <line x1="714" y1="117" x2="633" y2="259" class="constellation-line"/>
+  <line x1="191" y1="375" x2="253" y2="244" class="constellation-line"/>
+  <line x1="496" y1="400" x2="422" y2="307" class="constellation-line"/>
+
+  <!-- Skill Stars -->
+  <circle cx="636" cy="361" r="3.1922536908200505" class="constellation-star" style="animation: pulse 5.473673409989093s 3.102774158792869s ease-in-out infinite"/>
+  <text x="636" y="377" class="label">Python</text>
+  <circle cx="422" cy="307" r="2.7607560522930985" class="constellation-star" style="animation: pulse 6.634017510495216s 1.1894125300695495s ease-in-out infinite"/>
+  <text x="422" y="323" class="label">Kafka</text>
+  <circle cx="633" cy="259" r="3.1770502774422056" class="constellation-star" style="animation: pulse 4.715319344561703s 2.2745178824969328s ease-in-out infinite"/>
+  <text x="633" y="275" class="label">Spark</text>
+  <circle cx="347" cy="246" r="2.1204606087450815" class="constellation-star" style="animation: pulse 6.8404351097371965s 0.3969342990991529s ease-in-out infinite"/>
+  <text x="347" y="262" class="label">Docker</text>
+  <circle cx="193" cy="188" r="3.5254742087094173" class="constellation-star" style="animation: pulse 5.502060121626412s 1.0585845011600297s ease-in-out infinite"/>
+  <text x="193" y="204" class="label">K8s</text>
+  <circle cx="393" cy="151" r="2.162374930933969" class="constellation-star" style="animation: pulse 3.9594607106987696s 2.207968982311036s ease-in-out infinite"/>
+  <text x="393" y="167" class="label">FastAPI</text>
+  <circle cx="830" cy="364" r="2.3130652308862762" class="constellation-star" style="animation: pulse 4.634070290640107s 2.7574845431390758s ease-in-out infinite"/>
+  <text x="830" y="380" class="label">React</text>
+  <circle cx="776" cy="184" r="2.9398249580153717" class="constellation-star" style="animation: pulse 3.130559421523697s 1.1524195583747572s ease-in-out infinite"/>
+  <text x="776" y="200" class="label">AWS</text>
+  <circle cx="353" cy="391" r="2.5654367462245755" class="constellation-star" style="animation: pulse 6.43842692536209s 0.28471904061391706s ease-in-out infinite"/>
+  <text x="353" y="407" class="label">Azure</text>
+  <circle cx="253" cy="244" r="2.466847612320051" class="constellation-star" style="animation: pulse 4.058218502635599s 3.164990980179846s ease-in-out infinite"/>
+  <text x="253" y="260" class="label">GCP</text>
+  <circle cx="84" cy="363" r="3.1795791784105156" class="constellation-star" style="animation: pulse 6.215622721125735s 0.7912768550258567s ease-in-out infinite"/>
+  <text x="84" y="379" class="label">TensorFlow</text>
+  <circle cx="116" cy="117" r="2.2295526049220915" class="constellation-star" style="animation: pulse 3.8992378010640953s 0.5959576043013168s ease-in-out infinite"/>
+  <text x="116" y="133" class="label">PostgreSQL</text>
+  <circle cx="723" cy="341" r="2.5312649432812804" class="constellation-star" style="animation: pulse 3.568945141774709s 0.2385521580553882s ease-in-out infinite"/>
+  <text x="723" y="357" class="label">MongoDB</text>
+  <circle cx="550" cy="335" r="3.5852571324648235" class="constellation-star" style="animation: pulse 5.380176149277618s 3.296961205280037s ease-in-out infinite"/>
+  <text x="550" y="351" class="label">Git</text>
+  <circle cx="258" cy="116" r="3.8423850579352763" class="constellation-star" style="animation: pulse 4.75661379469495s 1.8747918811046476s ease-in-out infinite"/>
+  <text x="258" y="132" class="label">NumPy</text>
+  <circle cx="714" cy="117" r="2.6081823810895335" class="constellation-star" style="animation: pulse 4.610034076651223s 1.0889847725770525s ease-in-out infinite"/>
+  <text x="714" y="133" class="label">Pandas</text>
+  <circle cx="191" cy="375" r="3.079963125196028" class="constellation-star" style="animation: pulse 4.7510354542863915s 2.3921466481644145s ease-in-out infinite"/>
+  <text x="191" y="391" class="label">Hadoop</text>
+  <circle cx="496" cy="400" r="3.7788457785849072" class="constellation-star" style="animation: pulse 5.938135693142462s 2.4148545637836425s ease-in-out infinite"/>
+  <text x="496" y="416" class="label">Snowflake</text>
+
+  <!-- Project Stars -->
+  <circle cx="180.0" cy="100.0" r="5" class="project-star" style="animation: pulse 4.103459569553342s 0.6867732471654809s ease-in-out infinite"/>
+  <text x="180.0" y="88.0" class="project-label">🔋 EVNet Sentinel</text>
+  <circle cx="720.0" cy="75.0" r="5" class="project-star" style="animation: pulse 6.697193468688685s 2.5815506184518133s ease-in-out infinite"/>
+  <text x="720.0" y="63.0" class="project-label">🌿 GreenGuard</text>
+  <circle cx="135.0" cy="400.0" r="5" class="project-star" style="animation: pulse 6.348491726839134s 0.06223636864660109s ease-in-out infinite"/>
+  <text x="135.0" y="388.0" class="project-label">📄 PaperTrail</text>
+  <circle cx="765.0" cy="375.0" r="5" class="project-star" style="animation: pulse 7.059041520127105s 2.464263735775151s ease-in-out infinite"/>
+  <text x="765.0" y="363.0" class="project-label">🤝 dehelpers</text>
+
+  <!-- Grid coordinates -->
+  <text x="5" y="12" class="coord">18h2m +22°30'</text>
+  <text x="5" y="162" class="coord">16h41m +56°58'</text>
+  <text x="5" y="312" class="coord">8h11m +74°27'</text>
+  <text x="5" y="462" class="coord">20h52m +62°5'</text>
+  <text x="155" y="12" class="coord">15h22m +52°21'</text>
+  <text x="155" y="162" class="coord">10h42m +13°54'</text>
+  <text x="155" y="312" class="coord">5h21m +52°44'</text>
+  <text x="155" y="462" class="coord">15h18m +84°25'</text>
+  <text x="305" y="12" class="coord">17h2m +58°5'</text>
+  <text x="305" y="162" class="coord">10h16m +41°7'</text>
+  <text x="305" y="312" class="coord">12h55m +65°52'</text>
+  <text x="305" y="462" class="coord">0h42m +69°29'</text>
+  <text x="455" y="12" class="coord">13h3m +24°33'</text>
+  <text x="455" y="162" class="coord">11h39m +63°40'</text>
+  <text x="455" y="312" class="coord">14h48m +6°13'</text>
+  <text x="455" y="462" class="coord">8h35m +16°59'</text>
+  <text x="605" y="12" class="coord">9h28m +89°31'</text>
+  <text x="605" y="162" class="coord">3h1m +80°38'</text>
+  <text x="605" y="312" class="coord">7h45m +20°19'</text>
+  <text x="605" y="462" class="coord">17h0m +70°26'</text>
+  <text x="755" y="12" class="coord">2h14m +14°29'</text>
+  <text x="755" y="162" class="coord">3h41m +19°31'</text>
+  <text x="755" y="312" class="coord">22h18m +65°45'</text>
+  <text x="755" y="462" class="coord">8h26m +61°30'</text>
+
+  <!-- Title -->
+  <text x="880" y="25" class="title">shard-c6 · tech constellation</text>
+  <text x="880" y="40" class="title" style="font-size: 8px; fill: #30363d;">EPOCH 2431946.567 · EQUINOX J2026.0</text>
+
+</svg>

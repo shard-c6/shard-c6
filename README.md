@@ -296,19 +296,16 @@ gantt
 
 </details>
 
-<img src="./assets/divider.svg" width="100%" />
 
-<!-- ┌──────────────── ♟️ CHESS GAME ────────────────┐ -->
-<details open>
-<summary>♟️ Play Chess with Me!</summary>
-<br>
+<!-- ┌──────────────── 🌌 TECH CONSTELLATION ────────────────┐ -->
+
+## 🌌 Tech Constellation
+
+> _Every skill is a star. Every project is a sun. This is my corner of the universe._
 
 <p align="center">
-<!-- BEGIN CHESS BOARD -->
-<!-- END CHESS BOARD -->
+  <img src="./assets/starmap.svg" width="100%" alt="Tech Constellation Star Map" />
 </p>
-
-</details>
 
 <img src="./assets/divider.svg" width="100%" />
 
