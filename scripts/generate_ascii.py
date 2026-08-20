@@ -24,7 +24,12 @@ def to_ascii_svg(image, width=100, height=None, output_path="assets/avi-ascii.sv
         
     image = image.resize((width, height)).convert("L")
 
-    pixels = image.getdata()
+    # Handle DeprecationWarning in Pillow 14
+    try:
+        pixels = image.get_flattened_data()
+    except AttributeError:
+        pixels = image.getdata()
+        
     ascii_str = ""
     for pixel_val in pixels:
         # 0-255 mapped to 0-10
@@ -40,37 +45,80 @@ def to_ascii_svg(image, width=100, height=None, output_path="assets/avi-ascii.sv
         ascii_img += ascii_str[i:i+width] + "\n"
 
     # SVG generation
-    # Estimate sizes based on standard monospace font
     font_size = 12
     line_height = 14
-    svg_width = width * 7.2  # Approx character width
-    svg_height = height * line_height + 20
+    svg_width = width * 7.2 + 40 # Add padding
+    
+    # Calculate height: macbook header (40px) + content + padding
+    lines = ascii_img.split('\n')
+    lines = [line for line in lines if line.strip()]
+    content_height = len(lines) * line_height
+    svg_height = content_height + 60 
 
     svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {svg_width} {svg_height}" width="{svg_width}" height="{svg_height}">
   <style>
     .text {{
-      font-family: 'Courier New', Courier, monospace;
+      font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', Courier, monospace;
       font-size: {font_size}px;
       font-weight: bold;
-      fill: #00d9ff;
+      fill: #39FF14; /* Neon Green */
       white-space: pre;
+      opacity: 0;
+      animation: type 0.1s forwards;
     }}
-    rect {{
-      fill: #0d1117;
+    .terminal-bg {{
+      fill: #1E1E1E;
     }}
-  </style>
-  <rect width="100%" height="100%" rx="10"/>
+    .header-bg {{
+      fill: #2D2D2D;
+    }}
+    .title {{
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 13px;
+      fill: #A0A0A0;
+      font-weight: 500;
+    }}
+    @keyframes type {{
+      from {{ opacity: 0; transform: translateX(-5px); }}
+      to {{ opacity: 1; transform: translateX(0); }}
+    }}
 '''
     
-    # Add each line as a tspan or text element
-    lines = ascii_img.split('\n')
-    for idx, line in enumerate(lines):
-        if not line.strip():
-            continue
-        y_pos = 20 + (idx * line_height)
-        svg_content += f'  <text x="10" y="{y_pos}" class="text">{line}</text>\n'
+    # Generate animation delays for each line
+    for i in range(len(lines)):
+        delay = 0.5 + (i * 0.05) # Start after 0.5s, 50ms per line
+        svg_content += f"    .line-{i} {{ animation-delay: {delay}s; }}\n"
 
-    svg_content += '</svg>'
+    svg_content += '''  </style>
+  
+  <!-- Terminal Window -->
+  <rect width="100%" height="100%" rx="10" class="terminal-bg" />
+  
+  <!-- MacBook Header -->
+  <path d="M 0 10 C 0 4.477 4.477 0 10 0 L {w} 0 C {w_minus_10} 0 {w} 4.477 {w} 10 L {w} 30 L 0 30 Z" class="header-bg" />
+  
+  <!-- Window Buttons -->
+  <circle cx="20" cy="15" r="6" fill="#FF5F56" />
+  <circle cx="40" cy="15" r="6" fill="#FFBD2E" />
+  <circle cx="60" cy="15" r="6" fill="#27C93F" />
+  
+  <!-- Title -->
+  <text x="50%" y="20" text-anchor="middle" class="title">shard-c6@macbook:~</text>
+  
+  <!-- Command prompt before typing avatar -->
+  <text x="20" y="55" class="text" style="fill: #00d9ff; animation-delay: 0.1s; opacity: 0; animation: type 0.1s forwards;">$ cat avatar.txt</text>
+  
+  <!-- ASCII Content -->
+  <g transform="translate(20, 75)">
+'''.replace("{w}", str(svg_width)).replace("{w_minus_10}", str(svg_width - 10))
+    
+    # Add each line
+    for idx, line in enumerate(lines):
+        y_pos = idx * line_height
+        svg_content += f'    <text x="0" y="{y_pos}" class="text line-{idx}">{line}</text>\n'
+
+    svg_content += '''  </g>
+</svg>'''
 
     with open(output_path, "w") as f:
         f.write(svg_content)
