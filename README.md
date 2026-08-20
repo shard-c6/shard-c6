@@ -3,17 +3,22 @@
      Backed up original → README_old.md
      ═══════════════════════════════════════════════════════════════════════ -->
 
-<!-- ┌──────────────── 🌊 ANIMATED WAVING HEADER ────────────────┐ -->
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=250&section=header&text=Shardul%20Chogale&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=AI%20Data%20Engineer%20%7C%20Satellite%20Data%20Wizard%20%7C%20GATE%20DA%20Aspirant&descAlignY=55&descSize=18)
+<!-- ┌──────────────── 🧠 NEURAL NETWORK HEADER ────────────────┐ -->
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Neural Network Animation" />
+</p>
+<h1 align="center">Shardul Chogale</h1>
+<h3 align="center">AI Data Engineer | Satellite Data Wizard | GATE DA Aspirant</h3>
 
 <!-- ┌──────────────── ⌨️ TYPING SVG ────────────────┐ -->
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=100&lines=Building+pipelines+that+process+terabytes+%F0%9F%9A%80;Turning+satellite+data+into+actionable+insights+%F0%9F%9B%B0%EF%B8%8F;Python+%3E%3E+Java+(and+I+will+die+on+this+hill)+%F0%9F%90%8D;Currently+on+a+LeetCode+streak+you+can't+break+%F0%9F%94%A5" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=100&lines=Building+pipelines+that+process+terabytes+%F0%9F%9A%80;Data,+Cloud,+and+Code.;Python+%3E%3E+Java+(and+I+will+die+on+this+hill)+%F0%9F%90%8D;Currently+on+a+LeetCode+streak+you+can't+break+%F0%9F%94%A5" alt="Typing SVG" />
   </a>
 </p>
 
-<!-- ┌──────────────── 👀 VISITOR COUNTER ────────────────┐ -->
+<!-- ┌──────────────── 👀 VISITOR COUNTER ────────────────┐
+-->
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=shard-c6&style=for-the-badge&color=00d9ff&label=PROFILE+VIEWS" alt="Profile Views" />
   <img src="https://img.shields.io/github/followers/shard-c6?style=for-the-badge&color=00d9ff&labelColor=0d1117" alt="Followers" />
@@ -44,7 +49,7 @@
 - 🏗️ **Dream Role:** AI Data Engineer @ Databricks → Data Architect
 - 📜 **Cert Path:** Databricks Associate DE · Spark Developer · AZ-900 · DP-900
 - 🎓 **Status:** Pre-final year Computer Engineering @ VIT Mumbai
-- ⚡ **Hot Take:** Python >> Java *(and I will die on this hill)* 🐍
+- ⚡ **Hot Take:** Python >> Java _(and I will die on this hill)_ 🐍
 
 <br clear="both"/>
 
@@ -150,7 +155,7 @@
   </picture>
 </p>
 
-> 🔮 *This isometric skyline is auto-generated daily via [GitHub Actions](https://github.com/yoshi389111/github-profile-3d-contrib) — each bar represents a day of commits!*
+> 🔮 _This isometric skyline is auto-generated daily via [GitHub Actions](https://github.com/yoshi389111/github-profile-3d-contrib) — each bar represents a day of commits!_
 
 ---
 
@@ -213,9 +218,11 @@
 
 ---
 
-<!-- ┌──────────────── 🌊 ANIMATED WAVING FOOTER ────────────────┐ -->
+<!-- ┌──────────────── 🧠 NEURAL NETWORK FOOTER ────────────────┐ -->
 
-![footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Neural Network Animation" />
+</p>
 
 <p align="center">
   <i>⭐ From <a href="https://github.com/shard-c6">shard-c6</a> — "Data is the new oil, but only if you know how to refine it." 🛢️</i>
