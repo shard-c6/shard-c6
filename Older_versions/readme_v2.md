@@ -25,7 +25,7 @@
   <a href="mailto:shardulchogale1983@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
 
-<img src="./assets/divider.svg" width="100%" />
+---
 
 <!-- ┌──────────────── 📖 ABOUT ME ────────────────┐ -->
 
@@ -53,40 +53,7 @@
 
 <br clear="both"/>
 
-<img src="./assets/divider.svg" width="100%" />
-
-<!-- ┌──────────────── 🗺️ CURRENTLY WORKING ON ────────────────┐ -->
-
-## 🗺️ Currently Working On
-
-```mermaid
-gantt
-    title 🚀 Project Roadmap 2026
-    dateFormat  YYYY-MM-DD
-    axisFormat  %b
-
-    section 🔋 EVNet Sentinel
-    Backend API + ML Models       :active, evnet1, 2026-06-01, 2026-09-15
-    Dashboard & Monitoring        :evnet2, 2026-08-01, 2026-10-30
-
-    section 🌿 GreenGuard
-    Satellite Data Pipeline       :active, gg1, 2026-07-01, 2026-09-30
-    Alert System + Analytics      :gg2, 2026-09-01, 2026-11-30
-
-    section 📄 PaperTrail
-    OCR Engine (Tesseract + AI)   :done, pt1, 2026-04-01, 2026-07-15
-    RAG + LLM Integration         :active, pt2, 2026-07-15, 2026-10-01
-
-    section 📚 Certifications
-    GATE DA Preparation           :active, cert1, 2026-06-01, 2027-02-01
-    Databricks Associate DE       :cert2, 2026-09-01, 2026-12-01
-    AZ-900 + DP-900               :cert3, 2026-10-01, 2027-01-15
-
-    section 🏋️ Daily Grind
-    LeetCode Streak               :active, lc1, 2026-01-01, 2027-01-01
-```
-
-<img src="./assets/divider.svg" width="100%" />
+---
 
 <!-- ┌──────────────── 🛠️ TECH STACK ────────────────┐ -->
 
@@ -135,7 +102,7 @@ gantt
   <img src="https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=white" />
 </p>
 
-<img src="./assets/divider.svg" width="100%" />
+---
 
 <!-- ┌──────────────── 📊 GITHUB STATS ────────────────┐ -->
 
@@ -158,36 +125,7 @@ gantt
   <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=shard-c6&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=donut-vertical&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9" alt="Top Languages" width="300" />
 </p>
 
-<img src="./assets/divider.svg" width="100%" />
-
-<!-- ┌──────────────── 🎯 LEETCODE STATS ────────────────┐ -->
-
-## 🎯 LeetCode Grind
-
-<div align="center">
-  <table>
-    <tr>
-      <td>
-        <img src="https://leetcard.jacoblin.cool/shard_c6?theme=dark&font=JetBrains%20Mono&ext=heatmap&border=0&radius=10" alt="LeetCode Stats" />
-      </td>
-    </tr>
-  </table>
-</div>
-
-> 🔥 _Currently on a streak you can't break — solving DSA daily for GATE DA prep!_
-
-<img src="./assets/divider.svg" width="100%" />
-
-<!-- ┌──────────────── 💻 NOW CODING ────────────────┐ -->
-
-## 💻 Now Coding
-
-<!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
-
-> 💡 _This section auto-updates daily via [WakaTime](https://wakatime.com) — install the plugin in your IDE to track coding activity!_
-
-<img src="./assets/divider.svg" width="100%" />
+---
 
 <!-- ┌──────────────── 📈 ACTIVITY GRAPH ────────────────┐ -->
 
@@ -197,7 +135,7 @@ gantt
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=shard-c6&bg_color=0d1117&color=00d9ff&line=00d9ff&point=ffffff&area=true&area_color=00d9ff&hide_border=true&custom_title=Shardul's%20Contribution%20Graph" alt="Activity Graph" />
 </p>
 
-<img src="./assets/divider.svg" width="100%" />
+---
 
 <!-- ┌──────────────── 🏙️ 3D CONTRIBUTION SKYLINE ────────────────┐ -->
 
@@ -219,25 +157,7 @@ gantt
 
 > 🔮 _This isometric skyline is auto-generated daily via [GitHub Actions](https://github.com/yoshi389111/github-profile-3d-contrib) — each bar represents a day of commits!_
 
-<img src="./assets/divider.svg" width="100%" />
-
-<!-- ┌──────────────── 📊 METRICS DASHBOARD ────────────────┐ -->
-
-## 📊 Metrics Dashboard
-
-<!--
-  ⚡ This section requires the GitHub Action in .github/workflows/metrics.yml
-  You must create a Personal Access Token and add it as METRICS_TOKEN secret.
-  Run it manually the first time: Actions → GitHub Metrics → Run workflow
--->
-
-<p align="center">
-  <img src="./assets/github-metrics.svg" width="100%" alt="GitHub Metrics Dashboard" />
-</p>
-
-> 📈 _Full infographic auto-generated daily — languages, habits, isocalendar, and more via [lowlighter/metrics](https://github.com/lowlighter/metrics)_
-
-<img src="./assets/divider.svg" width="100%" />
+---
 
 <!-- ┌──────────────── 🏆 TROPHIES ────────────────┐ -->
 
@@ -247,7 +167,7 @@ gantt
   <img src="https://github-profile-trophy.vercel.app/?username=shard-c6&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=10" alt="Trophies" />
 </p>
 
-<img src="./assets/divider.svg" width="100%" />
+---
 
 <!-- ┌──────────────── 🐍 SNAKE ANIMATION ────────────────┐ -->
 
@@ -267,17 +187,17 @@ gantt
   </picture>
 </p>
 
-<img src="./assets/divider.svg" width="100%" />
+---
 
-<!-- ┌──────────────── ✍️ DYNAMIC QUOTES ────────────────┐ -->
+<!-- ┌──────────────── ✍️ RANDOM DEV QUOTE ────────────────┐ -->
 
-## ✍️ Dev Quotes Terminal
+## ✍️ Random Dev Quote
 
 <p align="center">
-  <img src="./assets/quotes-terminal.svg" width="100%" alt="Dev Quotes Terminal" />
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev Quote" />
 </p>
 
-<img src="./assets/divider.svg" width="100%" />
+---
 
 <!-- ┌──────────────── ⚡ FUN STATS ────────────────┐ -->
 
@@ -296,7 +216,7 @@ gantt
 
 </details>
 
-<img src="./assets/divider.svg" width="100%" />
+---
 
 <!-- ┌──────────────── ♟️ CHESS GAME ────────────────┐ -->
 <details open>
@@ -310,7 +230,7 @@ gantt
 
 </details>
 
-<img src="./assets/divider.svg" width="100%" />
+---
 
 <!-- ┌──────────────── 💻 MACBOOK TERMINAL FOOTER ────────────────┐ -->
 <p align="center">
