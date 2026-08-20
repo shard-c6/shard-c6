@@ -31,16 +31,25 @@
 
 ## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> About Me
 
-<img align="right" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDFwNnRsMmZtdGFjdmp0Y3o3emR2aHVmczl1bW0xbTg2dHU0eDd0NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif" width="250" />
-
-- 🔭 **Building:** [EVNet Sentinel](https://github.com/shard-c6) · GreenGuard · dehelpers · PaperTrail (OCR/AI/ML)
-- 🎯 **Daily Grind:** LeetCode streak 🔥 + DSA + GATE DA prep
-- 🛰️ **Superpower:** Processing satellite data & scalable data flow architecture
-- 🧠 **Learning:** Apache Kafka · Spark · Advanced SQL · AI/ML for Data Engineering
-- 🏗️ **Dream Role:** AI Data Engineer @ Databricks → Data Architect
-- 📜 **Cert Path:** Databricks Associate DE · Spark Developer · AZ-900 · DP-900
-- 🎓 **Status:** Pre-final year Computer Engineering @ VIT Mumbai
-- ⚡ **Hot Take:** Python >> Java _(and I will die on this hill)_ 🐍
+<table>
+  <tr>
+    <td valign="top" width="40%">
+      <img src="./assets/avi-ascii.svg" width="100%" alt="ASCII portrait" />
+    </td>
+    <td valign="top" width="60%">
+      <ul>
+        <li>🔭 <b>Building:</b> <a href="https://github.com/shard-c6">EVNet Sentinel</a> · GreenGuard · dehelpers · PaperTrail (OCR/AI/ML)</li>
+        <li>🎯 <b>Daily Grind:</b> LeetCode streak 🔥 + DSA + GATE DA prep</li>
+        <li>🛰️ <b>Superpower:</b> Processing satellite data & scalable data flow architecture</li>
+        <li>🧠 <b>Learning:</b> Apache Kafka · Spark · Advanced SQL · AI/ML for Data Engineering</li>
+        <li>🏗️ <b>Dream Role:</b> AI Data Engineer @ Databricks → Data Architect</li>
+        <li>📜 <b>Cert Path:</b> Databricks Associate DE · Spark Developer · AZ-900 · DP-900</li>
+        <li>🎓 <b>Status:</b> Pre-final year Computer Engineering @ VIT Mumbai</li>
+        <li>⚡ <b>Hot Take:</b> Python >> Java <i>(and I will die on this hill)</i> 🐍</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 <br clear="both"/>
 
@@ -204,6 +213,20 @@
   Add more pinned repos here as you build them:
   <img src="https://github-readme-stats.shion.dev/api/pin/?username=shard-c6&repo=YOUR_REPO_NAME&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9&icon_color=00d9ff" />
 -->
+
+</details>
+
+---
+
+<!-- ┌──────────────── ♟️ CHESS GAME ────────────────┐ -->
+<details open>
+<summary>♟️ Play Chess with Me!</summary>
+<br>
+
+<p align="center">
+<!-- BEGIN SECTION: Chess -->
+<!-- END SECTION: Chess -->
+</p>
 
 </details>
 
