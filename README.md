@@ -55,11 +55,20 @@
 
 <img src="./assets/divider.svg" width="100%" />
 
-<!-- ┌──────────────── 🗺️ CURRENTLY WORKING ON ────────────────┐ -->
-
-<p align="center">
-  <img src="./assets/mission-control.svg" width="100%" alt="Mission Control Dashboard" />
-</p>
+<!-- ┌──────────────── 👁️ THE ANOMALY ────────────────┐ -->
+<div align="center">
+  <h1>I A̷M C̷O̷R̷R̷U̷P̷T̷I̷N̷G T̷H̷E M̷A̷I̷N̷F̷R̷A̷M̷E</h1>
+  <p>
+    T̸o̸o̸ m̸a̸n̸y̸ ̸p̸r̸o̸j̸e̸c̸t̸s̸.̸ ̸S̸y̸s̸t̸e̸m̸ ̸o̸v̸e̸r̸l̸o̸a̸d̸ ̸i̸m̸m̸i̸n̸e̸n̸t̸.̸
+  </p>
+  
+  <img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="400" />
+  
+  <p>
+    <i>Executing contingency protocols...</i>
+  </p>
+</div>
+<!-- └───────────────────────────────────────────────┘ -->
 
 <img src="./assets/divider.svg" width="100%" />
 
