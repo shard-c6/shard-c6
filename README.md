@@ -57,34 +57,9 @@
 
 <!-- ┌──────────────── 🗺️ CURRENTLY WORKING ON ────────────────┐ -->
 
-## 🗺️ Currently Working On
-
-```mermaid
-gantt
-    title 🚀 Project Roadmap 2026
-    dateFormat  YYYY-MM-DD
-    axisFormat  %b
-
-    section 🔋 EVNet Sentinel
-    Backend API + ML Models       :active, evnet1, 2026-06-01, 2026-09-15
-    Dashboard & Monitoring        :evnet2, 2026-08-01, 2026-10-30
-
-    section 🌿 GreenGuard
-    Satellite Data Pipeline       :active, gg1, 2026-07-01, 2026-09-30
-    Alert System + Analytics      :gg2, 2026-09-01, 2026-11-30
-
-    section 📄 PaperTrail
-    OCR Engine (Tesseract + AI)   :done, pt1, 2026-04-01, 2026-07-15
-    RAG + LLM Integration         :active, pt2, 2026-07-15, 2026-10-01
-
-    section 📚 Certifications
-    GATE DA Preparation           :active, cert1, 2026-06-01, 2027-02-01
-    Databricks Associate DE       :cert2, 2026-09-01, 2026-12-01
-    AZ-900 + DP-900               :cert3, 2026-10-01, 2027-01-15
-
-    section 🏋️ Daily Grind
-    LeetCode Streak               :active, lc1, 2026-01-01, 2027-01-01
-```
+<p align="center">
+  <img src="./assets/mission-control.svg" width="100%" alt="Mission Control Dashboard" />
+</p>
 
 <img src="./assets/divider.svg" width="100%" />
 

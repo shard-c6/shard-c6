@@ -1,0 +1,319 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 620" width="840" height="620">
+  <defs>
+    <style>
+      /* ── Base ── */
+      .mc-bg { fill: #0d1117; }
+      .mc-panel { fill: #161b22; stroke: #30363d; stroke-width: 1; rx: 8; }
+      .mc-panel-glow { fill: none; stroke: #00d9ff; stroke-width: 0.5; rx: 8; opacity: 0.3; }
+      .mc-header-bar { fill: #21262d; }
+
+      /* ── Typography ── */
+      .mc-font { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+      .mc-title { font-size: 16px; fill: #00d9ff; font-weight: bold; letter-spacing: 3px; text-anchor: middle; }
+      .mc-subtitle { font-size: 10px; fill: #484f58; text-anchor: middle; letter-spacing: 2px; }
+      .mc-module-title { font-size: 13px; fill: #e6edf3; font-weight: bold; }
+      .mc-module-desc { font-size: 10px; fill: #8b949e; }
+      .mc-label { font-size: 9px; fill: #484f58; text-transform: uppercase; letter-spacing: 1px; }
+      .mc-value { font-size: 11px; fill: #c9d1d9; }
+      .mc-pct { font-size: 10px; fill: #00d9ff; font-weight: bold; }
+      .mc-tag { font-size: 8px; fill: #0d1117; font-weight: bold; }
+      .mc-status-text { font-size: 9px; font-weight: bold; letter-spacing: 1px; }
+
+      /* ── Status colors ── */
+      .status-active { fill: #3fb950; }
+      .status-active-text { fill: #3fb950; }
+      .status-research { fill: #d29922; }
+      .status-research-text { fill: #d29922; }
+      .status-done { fill: #00d9ff; }
+      .status-done-text { fill: #00d9ff; }
+      .status-upcoming { fill: #8b949e; }
+      .status-upcoming-text { fill: #8b949e; }
+
+      /* ── Progress bar ── */
+      .mc-prog-bg { fill: #21262d; rx: 3; }
+      .mc-prog-fill-green { fill: #3fb950; rx: 3; }
+      .mc-prog-fill-cyan { fill: #00d9ff; rx: 3; }
+      .mc-prog-fill-yellow { fill: #d29922; rx: 3; }
+
+      /* ── Tag pills ── */
+      .tag-python { fill: #3572A5; rx: 4; }
+      .tag-ml { fill: #da3b8a; rx: 4; }
+      .tag-cloud { fill: #f97316; rx: 4; }
+      .tag-data { fill: #3fb950; rx: 4; }
+      .tag-api { fill: #58a6ff; rx: 4; }
+      .tag-ai { fill: #a371f7; rx: 4; }
+      .tag-sat { fill: #00d9ff; rx: 4; }
+      .tag-cert { fill: #d29922; rx: 4; }
+
+      /* ── Decorative ── */
+      .mc-grid-line { stroke: #21262d; stroke-width: 0.5; }
+      .mc-corner { fill: none; stroke: #00d9ff; stroke-width: 1.5; opacity: 0.6; }
+      .mc-dot { fill: #00d9ff; opacity: 0.15; }
+
+      /* ── Animations ── */
+      @keyframes pulse-green { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+      @keyframes pulse-yellow { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+      @keyframes scanline { 0% { transform: translateY(-10px); opacity: 0; } 10% { opacity: 0.08; } 90% { opacity: 0.08; } 100% { transform: translateY(580px); opacity: 0; } }
+      @keyframes blink-cursor { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+      @keyframes data-stream { 0% { opacity: 0; } 20% { opacity: 0.6; } 80% { opacity: 0.6; } 100% { opacity: 0; } }
+
+      .pulse-active { animation: pulse-green 2s ease-in-out infinite; }
+      .pulse-research { animation: pulse-yellow 2.5s ease-in-out infinite; }
+      .scanline { animation: scanline 8s linear infinite; }
+      .blink { animation: blink-cursor 1.2s step-end infinite; }
+      .stream1 { animation: data-stream 3s ease-in-out infinite; }
+      .stream2 { animation: data-stream 3s ease-in-out 1s infinite; }
+      .stream3 { animation: data-stream 3s ease-in-out 2s infinite; }
+    </style>
+
+    <!-- Glow filter -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow-soft">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- ═══ BACKGROUND ═══ -->
+  <rect width="100%" height="100%" class="mc-bg"/>
+
+  <!-- Grid dots -->
+  <g>
+    <circle cx="40" cy="40" r="1" class="mc-dot"/>  <circle cx="80" cy="40" r="1" class="mc-dot"/>
+    <circle cx="120" cy="40" r="1" class="mc-dot"/> <circle cx="160" cy="40" r="1" class="mc-dot"/>
+    <circle cx="200" cy="40" r="1" class="mc-dot"/> <circle cx="640" cy="40" r="1" class="mc-dot"/>
+    <circle cx="680" cy="40" r="1" class="mc-dot"/> <circle cx="720" cy="40" r="1" class="mc-dot"/>
+    <circle cx="760" cy="40" r="1" class="mc-dot"/> <circle cx="800" cy="40" r="1" class="mc-dot"/>
+    <circle cx="40" cy="580" r="1" class="mc-dot"/>  <circle cx="80" cy="580" r="1" class="mc-dot"/>
+    <circle cx="120" cy="580" r="1" class="mc-dot"/> <circle cx="160" cy="580" r="1" class="mc-dot"/>
+    <circle cx="200" cy="580" r="1" class="mc-dot"/> <circle cx="640" cy="580" r="1" class="mc-dot"/>
+    <circle cx="680" cy="580" r="1" class="mc-dot"/> <circle cx="720" cy="580" r="1" class="mc-dot"/>
+    <circle cx="760" cy="580" r="1" class="mc-dot"/> <circle cx="800" cy="580" r="1" class="mc-dot"/>
+  </g>
+
+  <!-- Scanline overlay -->
+  <rect x="0" y="0" width="840" height="4" fill="#00d9ff" opacity="0" class="scanline"/>
+
+  <!-- ═══ HEADER ═══ -->
+  <!-- Corner brackets -->
+  <g class="mc-corner" filter="url(#glow)">
+    <polyline points="25,55 25,25 55,25"/>
+    <polyline points="785,25 815,25 815,55"/>
+    <polyline points="815,565 815,595 785,595"/>
+    <polyline points="55,595 25,595 25,565"/>
+  </g>
+
+  <text x="420" y="22" class="mc-font mc-title" filter="url(#glow)">▲ MISSION CONTROL ▲</text>
+  <text x="420" y="38" class="mc-font mc-subtitle">SHARD-C6  ·  PROJECT STATUS DASHBOARD  ·  LIVE</text>
+
+  <!-- Blinking live indicator -->
+  <circle cx="530" cy="34" r="3" class="status-active pulse-active" filter="url(#glow)"/>
+
+  <!-- Header underline -->
+  <line x1="100" y1="48" x2="740" y2="48" stroke="#30363d" stroke-width="0.5"/>
+  <line x1="300" y1="48" x2="540" y2="48" stroke="#00d9ff" stroke-width="1" opacity="0.4"/>
+
+  <!-- ═══════════════ MODULE 1 — EVNet Sentinel ═══════════════ -->
+  <g transform="translate(30, 60)">
+    <!-- Panel -->
+    <rect x="0" y="0" width="380" height="120" class="mc-panel"/>
+    <rect x="0" y="0" width="380" height="120" class="mc-panel-glow"/>
+    <!-- Header bar -->
+    <rect x="1" y="1" width="378" height="24" class="mc-header-bar" rx="8"/>
+    <rect x="1" y="15" width="378" height="10" class="mc-header-bar"/>
+
+    <!-- Status dot + Title -->
+    <circle cx="14" cy="13" r="4" class="status-active pulse-active" filter="url(#glow)"/>
+    <text x="24" y="17" class="mc-font mc-module-title">🔋 EVNet Sentinel</text>
+    <text x="295" y="17" class="mc-font mc-status-text status-active-text">● ACTIVE</text>
+
+    <!-- Description -->
+    <text x="14" y="42" class="mc-font mc-module-desc">EV charging network monitoring + predictive ML models</text>
+
+    <!-- Progress -->
+    <text x="14" y="60" class="mc-font mc-label">PROGRESS</text>
+    <rect x="14" y="65" width="290" height="6" class="mc-prog-bg"/>
+    <rect x="14" y="65" width="188" height="6" class="mc-prog-fill-green"/>
+    <text x="312" y="72" class="mc-font mc-pct">65%</text>
+
+    <!-- Subsystems -->
+    <text x="14" y="88" class="mc-font mc-label">SUBSYSTEMS</text>
+    <text x="14" y="102" class="mc-font mc-value">Backend API ✓  ·  ML Models ◐  ·  Dashboard ○</text>
+
+    <!-- Tags -->
+    <rect x="280" y="86" width="42" height="14" class="tag-python"/>
+    <text x="290" y="96" class="mc-font mc-tag">Python</text>
+    <rect x="326" y="86" width="22" height="14" class="tag-ml"/>
+    <text x="329" y="96" class="mc-font mc-tag">ML</text>
+  </g>
+
+  <!-- ═══════════════ MODULE 2 — GreenGuard ═══════════════ -->
+  <g transform="translate(430, 60)">
+    <rect x="0" y="0" width="380" height="120" class="mc-panel"/>
+    <rect x="0" y="0" width="380" height="120" class="mc-panel-glow"/>
+    <rect x="1" y="1" width="378" height="24" class="mc-header-bar" rx="8"/>
+    <rect x="1" y="15" width="378" height="10" class="mc-header-bar"/>
+
+    <circle cx="14" cy="13" r="4" class="status-active pulse-active" filter="url(#glow)"/>
+    <text x="24" y="17" class="mc-font mc-module-title">🌿 GreenGuard</text>
+    <text x="295" y="17" class="mc-font mc-status-text status-active-text">● ACTIVE</text>
+
+    <text x="14" y="42" class="mc-font mc-module-desc">Satellite-driven environmental monitoring &amp; alert system</text>
+
+    <text x="14" y="60" class="mc-font mc-label">PROGRESS</text>
+    <rect x="14" y="65" width="290" height="6" class="mc-prog-bg"/>
+    <rect x="14" y="65" width="130" height="6" class="mc-prog-fill-green"/>
+    <text x="312" y="72" class="mc-font mc-pct">45%</text>
+
+    <text x="14" y="88" class="mc-font mc-label">SUBSYSTEMS</text>
+    <text x="14" y="102" class="mc-font mc-value">Sat Pipeline ◐  ·  Analytics ○  ·  Alerts ○</text>
+
+    <rect x="274" y="86" width="48" height="14" class="tag-sat"/>
+    <text x="282" y="96" class="mc-font mc-tag">Satellite</text>
+    <rect x="326" y="86" width="30" height="14" class="tag-data"/>
+    <text x="330" y="96" class="mc-font mc-tag">Data</text>
+  </g>
+
+  <!-- ═══════════════ MODULE 3 — PaperTrail ═══════════════ -->
+  <g transform="translate(30, 198)">
+    <rect x="0" y="0" width="380" height="120" class="mc-panel"/>
+    <rect x="0" y="0" width="380" height="120" class="mc-panel-glow"/>
+    <rect x="1" y="1" width="378" height="24" class="mc-header-bar" rx="8"/>
+    <rect x="1" y="15" width="378" height="10" class="mc-header-bar"/>
+
+    <circle cx="14" cy="13" r="4" class="status-active pulse-active" filter="url(#glow)"/>
+    <text x="24" y="17" class="mc-font mc-module-title">📄 PaperTrail</text>
+    <text x="295" y="17" class="mc-font mc-status-text status-active-text">● ACTIVE</text>
+
+    <text x="14" y="42" class="mc-font mc-module-desc">OCR + RAG pipeline for intelligent document processing</text>
+
+    <text x="14" y="60" class="mc-font mc-label">PROGRESS</text>
+    <rect x="14" y="65" width="290" height="6" class="mc-prog-bg"/>
+    <rect x="14" y="65" width="232" height="6" class="mc-prog-fill-cyan"/>
+    <text x="312" y="72" class="mc-font mc-pct">80%</text>
+
+    <text x="14" y="88" class="mc-font mc-label">SUBSYSTEMS</text>
+    <text x="14" y="102" class="mc-font mc-value">OCR Engine ✓  ·  RAG + LLM ◐  ·  Search UI ○</text>
+
+    <rect x="292" y="86" width="22" height="14" class="tag-ai"/>
+    <text x="297" y="96" class="mc-font mc-tag">AI</text>
+    <rect x="318" y="86" width="32" height="14" class="tag-api"/>
+    <text x="323" y="96" class="mc-font mc-tag">RAG</text>
+  </g>
+
+  <!-- ═══════════════ MODULE 4 — dehelpers ═══════════════ -->
+  <g transform="translate(430, 198)">
+    <rect x="0" y="0" width="380" height="120" class="mc-panel"/>
+    <rect x="0" y="0" width="380" height="120" class="mc-panel-glow"/>
+    <rect x="1" y="1" width="378" height="24" class="mc-header-bar" rx="8"/>
+    <rect x="1" y="15" width="378" height="10" class="mc-header-bar"/>
+
+    <circle cx="14" cy="13" r="4" class="status-research pulse-research" filter="url(#glow)"/>
+    <text x="24" y="17" class="mc-font mc-module-title">🛠️ dehelpers</text>
+    <text x="270" y="17" class="mc-font mc-status-text status-research-text">◐ BUILDING</text>
+
+    <text x="14" y="42" class="mc-font mc-module-desc">Developer helper toolkit — utilities &amp; automation scripts</text>
+
+    <text x="14" y="60" class="mc-font mc-label">PROGRESS</text>
+    <rect x="14" y="65" width="290" height="6" class="mc-prog-bg"/>
+    <rect x="14" y="65" width="87" height="6" class="mc-prog-fill-yellow"/>
+    <text x="312" y="72" class="mc-font mc-pct">30%</text>
+
+    <text x="14" y="88" class="mc-font mc-label">SUBSYSTEMS</text>
+    <text x="14" y="102" class="mc-font mc-value">CLI Framework ◐  ·  Plugins ○  ·  Docs ○</text>
+
+    <rect x="280" y="86" width="42" height="14" class="tag-python"/>
+    <text x="290" y="96" class="mc-font mc-tag">Python</text>
+    <rect x="326" y="86" width="26" height="14" class="tag-api"/>
+    <text x="330" y="96" class="mc-font mc-tag">CLI</text>
+  </g>
+
+  <!-- ═══════════════ BOTTOM — CERTIFICATIONS ═══════════════ -->
+  <g transform="translate(30, 336)">
+    <rect x="0" y="0" width="780" height="100" class="mc-panel"/>
+    <rect x="0" y="0" width="780" height="100" class="mc-panel-glow"/>
+    <rect x="1" y="1" width="778" height="24" class="mc-header-bar" rx="8"/>
+    <rect x="1" y="15" width="778" height="10" class="mc-header-bar"/>
+
+    <text x="14" y="17" class="mc-font mc-module-title">📚 Certification &amp; Prep Queue</text>
+    <text x="640" y="17" class="mc-font mc-status-text status-active-text">● IN PROGRESS</text>
+    <circle cx="628" cy="13" r="4" class="status-active pulse-active" filter="url(#glow)"/>
+
+    <!-- GATE DA -->
+    <text x="14" y="44" class="mc-font mc-value">🎯 GATE DA 2027</text>
+    <rect x="130" y="36" width="170" height="6" class="mc-prog-bg"/>
+    <rect x="130" y="36" width="68" height="6" class="mc-prog-fill-green"/>
+    <text x="308" y="44" class="mc-font mc-pct">40%</text>
+
+    <!-- Databricks -->
+    <text x="360" y="44" class="mc-font mc-value">🏅 Databricks DE</text>
+    <rect x="480" y="36" width="170" height="6" class="mc-prog-bg"/>
+    <rect x="480" y="36" width="34" height="6" class="mc-prog-fill-yellow"/>
+    <text x="658" y="44" class="mc-font mc-pct">20%</text>
+
+    <!-- AZ-900 / DP-900 -->
+    <text x="14" y="72" class="mc-font mc-value">☁️ AZ-900 + DP-900</text>
+    <rect x="150" y="64" width="170" height="6" class="mc-prog-bg"/>
+    <rect x="150" y="64" width="0" height="6" class="mc-prog-fill-cyan"/>
+    <text x="328" y="72" class="mc-font mc-pct">0%</text>
+    <text x="345" y="72" class="mc-font mc-label">STARTS OCT</text>
+
+    <!-- LeetCode -->
+    <text x="460" y="72" class="mc-font mc-value">🔥 LeetCode Streak</text>
+    <rect x="590" y="64" width="80" height="6" class="mc-prog-bg"/>
+    <rect x="590" y="64" width="80" height="6" class="mc-prog-fill-green"/>
+    <text x="678" y="72" class="mc-font mc-pct">∞</text>
+
+    <!-- Tags -->
+    <rect x="700" y="56" width="34" height="14" class="tag-cert"/>
+    <text x="706" y="66" class="mc-font mc-tag">GATE</text>
+    <rect x="738" y="56" width="30" height="14" class="tag-cloud"/>
+    <text x="743" y="66" class="mc-font mc-tag">Azure</text>
+  </g>
+
+  <!-- ═══════════════ SYSTEM STATUS BAR ═══════════════ -->
+  <g transform="translate(30, 454)">
+    <rect x="0" y="0" width="780" height="36" class="mc-panel"/>
+
+    <!-- Data stream indicators -->
+    <text x="14" y="22" class="mc-font mc-label">SYS</text>
+    <circle cx="42" cy="18" r="3" fill="#3fb950" class="stream1"/>
+    <circle cx="52" cy="18" r="3" fill="#3fb950" class="stream2"/>
+    <circle cx="62" cy="18" r="3" fill="#3fb950" class="stream3"/>
+
+    <text x="80" y="22" class="mc-font mc-value">4 projects active</text>
+    <text x="220" y="22" class="mc-font mc-label">·</text>
+    <text x="235" y="22" class="mc-font mc-value">6 subsystems in progress</text>
+    <text x="420" y="22" class="mc-font mc-label">·</text>
+    <text x="435" y="22" class="mc-font mc-value">3 certs queued</text>
+    <text x="560" y="22" class="mc-font mc-label">·</text>
+    <text x="575" y="22" class="mc-font mc-value">Last sync: now</text>
+
+    <!-- Blinking cursor at end -->
+    <rect x="680" y="12" width="7" height="14" fill="#00d9ff" opacity="0.7" class="blink"/>
+  </g>
+
+  <!-- ═══════════════ FOOTER ═══════════════ -->
+  <g transform="translate(30, 506)">
+    <!-- Legend -->
+    <text x="0" y="14" class="mc-font mc-label">LEGEND</text>
+    <circle cx="58" cy="10" r="4" class="status-active"/>
+    <text x="66" y="14" class="mc-font mc-module-desc">Active</text>
+    <circle cx="115" cy="10" r="4" class="status-research"/>
+    <text x="123" y="14" class="mc-font mc-module-desc">Building</text>
+    <circle cx="185" cy="10" r="4" class="status-done"/>
+    <text x="193" y="14" class="mc-font mc-module-desc">Done</text>
+    <circle cx="230" cy="10" r="4" class="status-upcoming"/>
+    <text x="238" y="14" class="mc-font mc-module-desc">Queued</text>
+
+    <!-- Subsystem key -->
+    <text x="310" y="14" class="mc-font mc-label">|</text>
+    <text x="325" y="14" class="mc-font mc-module-desc">✓ Complete  ·  ◐ In Progress  ·  ○ Pending</text>
+
+    <!-- Timestamp -->
+    <text x="640" y="14" class="mc-font mc-label">UPDATED AUG 2026</text>
+  </g>
+</svg>
