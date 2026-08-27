@@ -66,9 +66,9 @@
 
   <!-- Prompt -->
   <text x="20" y="60" class="prompt">$ fortune | cowthink</text>
-  <text x="20" y="90" class="quote-text" style="animation-delay: 0.5s">"If at first you don’t succeed; call it version</text>
-  <text x="20" y="110" class="quote-text" style="animation-delay: 0.7s">1.0"</text>
-  <text x="20" y="140" class="author-text" style="animation-delay: 0.8999999999999999s">— Unknown</text>
+  <text x="20" y="90" class="quote-text" style="animation-delay: 0.5s">"The computer was born to solve problems that did</text>
+  <text x="20" y="110" class="quote-text" style="animation-delay: 0.7s">not exist before."</text>
+  <text x="20" y="140" class="author-text" style="animation-delay: 0.8999999999999999s">— Bill Gates</text>
 
   <!-- Prompt 2 -->
   <text x="20" y="180" class="prompt" style="opacity: 0; animation: type 0.1s 1.4s forwards">$ <tspan class="blink-cursor">▊</tspan></text>
