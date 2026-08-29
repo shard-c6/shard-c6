@@ -55,12 +55,12 @@
 
 <!-- Replace the descriptions below with your own one-liners. -->
 
-| Project | What it does |
-| :--- | :--- |
+| Project                                           | What it does                                           |
+| :------------------------------------------------ | :----------------------------------------------------- |
 | **[EVNet Sentinel](https://github.com/shard-c6)** | Monitoring pipeline for EV charging network telemetry. |
-| **[GreenGuard](https://github.com/shard-c6)** | Environmental monitoring from satellite imagery. |
-| **[PaperTrail](https://github.com/shard-c6)** | Document understanding with OCR and AI/ML. |
-| **[dehelpers](https://github.com/shard-c6)** | Utility library for everyday data engineering chores. |
+| **[GreenGuard](https://github.com/shard-c6)**     | Environmental monitoring from satellite imagery.       |
+| **[PaperTrail](https://github.com/shard-c6)**     | Document understanding with OCR and AI/ML.             |
+| **[dehelpers](https://github.com/shard-c6)**      | Utility library for everyday data engineering chores.  |
 
 <img src="./assets/organic-divider.svg" width="100%" alt="" />
 
