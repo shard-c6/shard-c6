@@ -25,8 +25,9 @@ jobs:
 
       - name: Commit and Push changes
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "shard-c6"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add assets/quotes-terminal.svg
-          git commit -m "Update daily dev quote" || echo "No changes to commit"
+          git commit -m "chore: update daily dev quote" || echo "No changes to commit"
+          git pull --rebase origin main
           git push

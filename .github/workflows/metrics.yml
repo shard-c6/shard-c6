@@ -39,4 +39,6 @@ jobs:
           plugin_habits_languages_threshold: 0%
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
+          committer_token: ${{ secrets.METRICS_TOKEN }}
+          committer_message: "chore: update github metrics"
           config_timezone: Asia/Kolkata
