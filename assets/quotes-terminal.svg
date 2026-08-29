@@ -66,8 +66,8 @@
 
   <!-- Prompt -->
   <text x="20" y="60" class="prompt">$ fortune | cowthink</text>
-  <text x="20" y="90" class="quote-text" style="animation-delay: 0.5s">"Make it work, make it right, make it fast."</text>
-  <text x="20" y="120" class="author-text" style="animation-delay: 0.7s">— Kent Beck</text>
+  <text x="20" y="90" class="quote-text" style="animation-delay: 0.5s">"Don't comment bad code - rewrite it."</text>
+  <text x="20" y="120" class="author-text" style="animation-delay: 0.7s">— Brian Kernighan</text>
 
   <!-- Prompt 2 -->
   <text x="20" y="160" class="prompt" style="opacity: 0; animation: type 0.1s 1.2s forwards">$ <tspan class="blink-cursor">▊</tspan></text>
