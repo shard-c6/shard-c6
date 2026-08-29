@@ -130,7 +130,12 @@
 ## Contribution activity
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shard-c6&bg_color=f5ead8&color=201e1d&line=c67139&point=7a8a5e&area=true&area_color=c67139&hide_border=true&radius=16&custom_title=Contribution%20graph" alt="Activity graph" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=shard-c6&theme=solarized" width="100%" alt="Contribution activity" />
+</p>
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=shard-c6&theme=solarized&utcOffset=5.5" alt="Productive time" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shard-c6&theme=solarized" alt="Repos per language" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=shard-c6&theme=solarized" alt="Most committed language" />
 </p>
 
 <img src="./assets/organic-divider.svg" width="100%" alt="" />
@@ -164,10 +169,12 @@
 
 <img src="./assets/organic-divider.svg" width="100%" alt="" />
 
-## Trophies
+## GitHub summary
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=shard-c6&theme=flat&no-frame=true&no-bg=true&column=7&margin-w=10" alt="Trophies" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=shard-c6&theme=solarized" alt="Stats summary" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shard-c6&theme=solarized" alt="Repos per language" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=shard-c6&theme=solarized" alt="Most committed language" />
 </p>
 
 <img src="./assets/organic-divider.svg" width="100%" alt="" />
