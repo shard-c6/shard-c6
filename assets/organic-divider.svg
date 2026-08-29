@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="28" viewBox="0 0 1200 28" role="img" aria-label="divider">
+  <rect x="0" y="13" width="1200" height="2" rx="1" fill="#dcd3c4"></rect>
+  <circle cx="560" cy="14" r="7" fill="#f5ead8"></circle>
+  <circle cx="600" cy="14" r="10" fill="#c67139"></circle>
+  <circle cx="640" cy="14" r="7" fill="#7a8a5e"></circle>
+</svg>

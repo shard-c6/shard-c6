@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-label="Shardul Chogale — data engineering, satellite data. Open to open source, GSoC 2027, winter internships 2026.">
+  <defs>
+    <clipPath id="leftClip"><rect x="0" y="0" width="736" height="330" rx="28"></rect></clipPath>
+    <clipPath id="rightClip"><rect x="752" y="0" width="448" height="330" rx="28"></rect></clipPath>
+  </defs>
+
+  
+  <g clip-path="url(#leftClip)">
+    <rect x="0" y="0" width="736" height="330" rx="28" fill="#f5ead8"></rect>
+    <circle cx="700" cy="-30" r="150" fill="#ffe1d0"></circle>
+    <circle cx="620" cy="360" r="110" fill="#e1eecc"></circle>
+    <text x="48" y="76" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" letter-spacing="2.6" fill="#8c491a">DATA ENGINEERING · SATELLITE DATA</text>
+    <text x="46" y="158" font-family="Caprasimo, Georgia, 'Times New Roman', serif" font-size="62" fill="#201e1d">Shardul Chogale</text>
+    <text x="48" y="204" font-family="Figtree, 'Helvetica Neue', Arial, sans-serif" font-size="19" fill="#474238">Pre-final year Computer Engineering, VIT Mumbai.</text>
+    <text x="48" y="232" font-family="Figtree, 'Helvetica Neue', Arial, sans-serif" font-size="19" fill="#474238">Building pipelines that move satellite and sensor</text>
+    <text x="48" y="260" font-family="Figtree, 'Helvetica Neue', Arial, sans-serif" font-size="19" fill="#474238">data at scale.</text>
+  </g>
+
+  
+  <g clip-path="url(#rightClip)">
+    <rect x="752" y="0" width="448" height="330" rx="28" fill="#c67139"></rect>
+    <circle cx="1190" cy="330" r="130" fill="#b2622d"></circle>
+    <text x="796" y="76" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" letter-spacing="2.6" fill="#ffe1d0">AVAILABLE FOR</text>
+    <text x="794" y="146" font-family="Caprasimo, Georgia, 'Times New Roman', serif" font-size="34" fill="#f5ead8">Open source</text>
+    <text x="794" y="192" font-family="Caprasimo, Georgia, 'Times New Roman', serif" font-size="34" fill="#f5ead8">GSoC 2027</text>
+    <text x="794" y="238" font-family="Caprasimo, Georgia, 'Times New Roman', serif" font-size="34" fill="#f5ead8">Winter internships</text>
+    <text x="794" y="278" font-family="Caprasimo, Georgia, 'Times New Roman', serif" font-size="34" fill="#f5ead8">2026</text>
+  </g>
+</svg>
