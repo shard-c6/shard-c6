@@ -1,299 +1,211 @@
 <!-- ═══════════════════════════════════════════════════════════════════════
-     🔥 SHARD-C6 — GitHub Profile README
-     Backed up original → README_old.md
+     shard-c6 — GitHub profile README
+     Layout: "Full dossier". Palette: Organic (terracotta #c67139 / sage #7a8a5e
+     on cream #f5ead8). Previous versions kept in Older_versions/.
      ═══════════════════════════════════════════════════════════════════════ -->
 
-<!-- ┌──────────────── 💻 MACBOOK TERMINAL HEADER ────────────────┐ -->
 <p align="center">
-  <img src="./assets/macbook-header.svg" width="100%" alt="MacBook Terminal Header" />
+  <img src="./assets/macbook-header.svg" width="100%" alt="Terminal header" />
 </p>
 
-<!-- ┌──────────────── 👀 VISITOR COUNTER ────────────────┐
--->
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=shard-c6&style=for-the-badge&color=00d9ff&label=PROFILE+VIEWS" alt="Profile Views" />
-  <img src="https://img.shields.io/github/followers/shard-c6?style=for-the-badge&color=00d9ff&labelColor=0d1117" alt="Followers" />
-  <img src="https://img.shields.io/github/stars/shard-c6?style=for-the-badge&color=00d9ff&labelColor=0d1117&affiliations=OWNER" alt="Stars" />
+  <img src="https://komarev.com/ghpvc/?username=shard-c6&style=for-the-badge&color=c67139&labelColor=f5ead8&label=PROFILE+VIEWS" alt="Profile views" />
+  <img src="https://img.shields.io/github/followers/shard-c6?style=for-the-badge&color=c67139&labelColor=f5ead8" alt="Followers" />
+  <img src="https://img.shields.io/github/stars/shard-c6?style=for-the-badge&color=c67139&labelColor=f5ead8&affiliations=OWNER" alt="Stars" />
 </p>
 
-<!-- ┌──────────────── 🌐 CONNECT WITH ME ────────────────┐ -->
 <p align="center">
-  <a href="https://linkedin.com/in/shardul-c-6a3b73273/"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://medium.com/@shardulchogale1983"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" /></a>
-  <a href="https://reddit.com/user/Bitter_Shit_406"><img src="https://img.shields.io/badge/Reddit-%23FF4500.svg?style=for-the-badge&logo=Reddit&logoColor=white" /></a>
-  <a href="https://x.com/@ShardC008"><img src="https://img.shields.io/badge/X-black.svg?style=for-the-badge&logo=X&logoColor=white" /></a>
-  <a href="mailto:shardulchogale1983@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://linkedin.com/in/shardul-c-6a3b73273/"><img src="https://img.shields.io/badge/LinkedIn-7a8a5e?style=for-the-badge&logo=linkedin&logoColor=f5ead8" alt="LinkedIn" /></a>
+  <a href="https://medium.com/@shardulchogale1983"><img src="https://img.shields.io/badge/Medium-7a8a5e?style=for-the-badge&logo=medium&logoColor=f5ead8" alt="Medium" /></a>
+  <a href="https://reddit.com/user/Bitter_Shit_406"><img src="https://img.shields.io/badge/Reddit-7a8a5e?style=for-the-badge&logo=reddit&logoColor=f5ead8" alt="Reddit" /></a>
+  <a href="https://x.com/ShardC008"><img src="https://img.shields.io/badge/X-7a8a5e?style=for-the-badge&logo=x&logoColor=f5ead8" alt="X" /></a>
+  <a href="mailto:shardulchogale1983@gmail.com"><img src="https://img.shields.io/badge/Gmail-7a8a5e?style=for-the-badge&logo=gmail&logoColor=f5ead8" alt="Gmail" /></a>
 </p>
 
-<img src="./assets/divider.svg" width="100%" />
+<p align="center">
+  <img src="./assets/organic-hero.svg" width="100%" alt="Shardul Chogale — data engineering and satellite data. Open to open source, GSoC 2027, winter internships 2026." />
+</p>
 
-<!-- ┌──────────────── 📖 ABOUT ME ────────────────┐ -->
+<img src="./assets/organic-divider.svg" width="100%" alt="" />
 
-## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> About Me
+## About me
 
 <table>
   <tr>
-    <td valign="top" width="40%">
+    <td valign="top" width="36%">
       <img src="./assets/avi-ascii.svg" width="100%" alt="ASCII portrait" />
     </td>
-    <td valign="top" width="60%">
+    <td valign="top" width="64%">
       <ul>
-        <li>🔭 <b>Building:</b> <a href="https://github.com/shard-c6">EVNet Sentinel</a> · GreenGuard · dehelpers · PaperTrail (OCR/AI/ML)</li>
-        <li>🎯 <b>Daily Grind:</b> LeetCode streak 🔥 + DSA + GATE DA prep</li>
-        <li>🛰️ <b>Superpower:</b> Processing satellite data & scalable data flow architecture</li>
-        <li>🧠 <b>Learning:</b> Apache Kafka · Spark · Advanced SQL · AI/ML for Data Engineering</li>
-        <li>🏗️ <b>Dream Role:</b> AI Data Engineer @ Databricks → Data Architect</li>
-        <li>📜 <b>Cert Path:</b> Databricks Associate DE · Spark Developer · AZ-900 · DP-900</li>
-        <li>🎓 <b>Status:</b> Pre-final year Computer Engineering @ VIT Mumbai</li>
-        <li>⚡ <b>Hot Take:</b> Python >> Java <i>(and I will die on this hill)</i> 🐍</li>
+        <li><b>Building</b> — EVNet Sentinel · GreenGuard · dehelpers · PaperTrail</li>
+        <li><b>Daily grind</b> — LeetCode streak · DSA · GATE DA prep</li>
+        <li><b>Superpower</b> — satellite data processing and scalable data flow architecture</li>
+        <li><b>Learning</b> — Apache Kafka · Spark · advanced SQL · AI/ML for data engineering</li>
+        <li><b>Dream role</b> — AI Data Engineer, then Data Architect</li>
+        <li><b>Cert path</b> — Databricks Associate DE · Spark Developer · AZ-900 · DP-900</li>
+        <li><b>Status</b> — pre-final year Computer Engineering @ VIT Mumbai</li>
       </ul>
     </td>
   </tr>
 </table>
 
-<br clear="both"/>
+<img src="./assets/organic-divider.svg" width="100%" alt="" />
 
-<img src="./assets/divider.svg" width="100%" />
+## Featured work
 
-<!-- ┌──────────────── 👁️ THE ANOMALY ────────────────┐ -->
-<div align="center">
-  <h1>I A̷M C̷O̷R̷R̷U̷P̷T̷I̷N̷G T̷H̷E M̷A̷I̷N̷F̷R̷A̷M̷E</h1>
-  <p>
-    T̸o̸o̸ m̸a̸n̸y̸ ̸p̸r̸o̸j̸e̸c̸t̸s̸.̸ ̸S̸y̸s̸t̸e̸m̸ ̸o̸v̸e̸r̸l̸o̸a̸d̸ ̸i̸m̸m̸i̸n̸e̸n̸t̸.̸
-  </p>
-  
-  <img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="400" />
-  
-  <p>
-    <i>Executing contingency protocols...</i>
-  </p>
-</div>
-<!-- └───────────────────────────────────────────────┘ -->
+<!-- Replace the descriptions below with your own one-liners. -->
 
-<img src="./assets/divider.svg" width="100%" />
+| Project | What it does |
+| :--- | :--- |
+| **[EVNet Sentinel](https://github.com/shard-c6)** | Monitoring pipeline for EV charging network telemetry. |
+| **[GreenGuard](https://github.com/shard-c6)** | Environmental monitoring from satellite imagery. |
+| **[PaperTrail](https://github.com/shard-c6)** | Document understanding with OCR and AI/ML. |
+| **[dehelpers](https://github.com/shard-c6)** | Utility library for everyday data engineering chores. |
 
-<!-- ┌──────────────── 🛠️ TECH STACK ────────────────┐ -->
+<img src="./assets/organic-divider.svg" width="100%" alt="" />
 
-## 🛠️ Tech Arsenal
+## Tech arsenal
 
 <p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,java,c,ts,html,latex,md,powershell&perline=8" />
-  </a>
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=python,java,c,ts,html,latex,md,powershell&perline=8" alt="Languages" /></a>
+</p>
+<p align="center">
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=aws,azure,gcp,cloudflare,netlify,vercel&perline=6" alt="Cloud" /></a>
+</p>
+<p align="center">
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=kafka,fastapi,nextjs,nodejs,react,threejs&perline=6" alt="Frameworks" /></a>
+</p>
+<p align="center">
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql,supabase,sqlite&perline=5" alt="Databases" /></a>
+</p>
+<p align="center">
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv,docker,kubernetes,git,github,gitlab,figma,postman&perline=10" alt="Tooling" /></a>
 </p>
 
 <p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=aws,azure,gcp,cloudflare,netlify,vercel&perline=6" />
-  </a>
+  <img src="https://img.shields.io/badge/Apache%20Spark-c67139?style=for-the-badge&logo=apachespark&logoColor=f5ead8" alt="Apache Spark" />
+  <img src="https://img.shields.io/badge/Apache%20Hadoop-c67139?style=for-the-badge&logo=apachehadoop&logoColor=f5ead8" alt="Apache Hadoop" />
+  <img src="https://img.shields.io/badge/Apache%20Hive-c67139?style=for-the-badge&logo=apachehive&logoColor=f5ead8" alt="Apache Hive" />
+  <img src="https://img.shields.io/badge/Snowflake-c67139?style=for-the-badge&logo=snowflake&logoColor=f5ead8" alt="Snowflake" />
+  <img src="https://img.shields.io/badge/NumPy-7a8a5e?style=for-the-badge&logo=numpy&logoColor=f5ead8" alt="NumPy" />
+  <img src="https://img.shields.io/badge/Pandas-7a8a5e?style=for-the-badge&logo=pandas&logoColor=f5ead8" alt="Pandas" />
+  <img src="https://img.shields.io/badge/scikit--learn-7a8a5e?style=for-the-badge&logo=scikit-learn&logoColor=f5ead8" alt="scikit-learn" />
+  <img src="https://img.shields.io/badge/Plotly-7a8a5e?style=for-the-badge&logo=plotly&logoColor=f5ead8" alt="Plotly" />
+  <img src="https://img.shields.io/badge/SciPy-7a8a5e?style=for-the-badge&logo=scipy&logoColor=f5ead8" alt="SciPy" />
 </p>
 
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=kafka,fastapi,nextjs,nodejs,react,threejs&perline=6" />
-  </a>
-</p>
+<img src="./assets/organic-divider.svg" width="100%" alt="" />
 
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql,supabase,sqlite&perline=5" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv,docker,kubernetes,git,github,gitlab,figma,postman&perline=10" />
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Apache%20Spark-FDEE21?style=for-the-badge&logo=apachespark&logoColor=black" />
-  <img src="https://img.shields.io/badge/Apache%20Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black" />
-  <img src="https://img.shields.io/badge/Apache%20Hive-FDEE21?style=for-the-badge&logo=apachehive&logoColor=black" />
-  <img src="https://img.shields.io/badge/Snowflake-%2329B5E8.svg?style=for-the-badge&logo=snowflake&logoColor=white" />
-  <img src="https://img.shields.io/badge/NumPy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white" />
-  <img src="https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white" />
-  <img src="https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black" />
-  <img src="https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=white" />
-</p>
-
-<img src="./assets/divider.svg" width="100%" />
-
-<!-- ┌──────────────── 📊 GITHUB STATS ────────────────┐ -->
-
-## 📊 GitHub Stats
+## GitHub stats
 
 <div align="center">
   <table>
     <tr>
       <td>
-        <img src="https://github-readme-stats.shion.dev/api?username=shard-c6&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9&icon_color=00d9ff&ring_color=00d9ff" alt="GitHub Stats" />
+        <img src="https://github-readme-stats.shion.dev/api?username=shard-c6&hide_border=true&include_all_commits=true&count_private=true&bg_color=f5ead8&title_color=c67139&text_color=201e1d&icon_color=7a8a5e&ring_color=c67139&border_radius=16" alt="GitHub stats" />
       </td>
       <td>
-        <img src="https://streak-stats.demolab.com/?user=shard-c6&theme=tokyonight&hide_border=true&background=0d1117&ring=00d9ff&fire=ff6b6b&currStreakLabel=00d9ff&sideLabels=c9d1d9&currStreakNum=ffffff&sideNums=ffffff&dates=555555" alt="Streak Stats" />
+        <img src="https://streak-stats.demolab.com/?user=shard-c6&hide_border=true&background=f5ead8&ring=c67139&fire=c67139&currStreakLabel=8c491a&sideLabels=201e1d&currStreakNum=201e1d&sideNums=201e1d&dates=82796a&border_radius=16" alt="Streak stats" />
       </td>
     </tr>
   </table>
 </div>
 
 <p align="center">
-  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=shard-c6&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=donut-vertical&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9" alt="Top Languages" width="300" />
+  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=shard-c6&hide_border=true&include_all_commits=true&count_private=true&layout=compact&bg_color=f5ead8&title_color=c67139&text_color=201e1d&border_radius=16" alt="Top languages" width="340" />
 </p>
 
-<img src="./assets/divider.svg" width="100%" />
+<img src="./assets/organic-divider.svg" width="100%" alt="" />
 
-<!-- ┌──────────────── 🎯 LEETCODE STATS ────────────────┐ -->
-
-## 🎯 LeetCode Grind
+## LeetCode grind
 
 <div align="center">
-  <table>
-    <tr>
-      <td>
-        <img src="https://leetcard.jacoblin.cool/shard_c6?theme=dark&font=JetBrains%20Mono&ext=heatmap&border=0&radius=10" alt="LeetCode Stats" />
-      </td>
-    </tr>
-  </table>
+  <img src="https://leetcard.jacoblin.cool/shard_c6?theme=light&font=Figtree&ext=heatmap&border=0&radius=16" alt="LeetCode stats" />
 </div>
 
-> 🔥 _Currently on a streak you can't break — solving DSA daily for GATE DA prep!_
+> Solving DSA daily as part of GATE DA prep.
 
-<img src="./assets/divider.svg" width="100%" />
+<img src="./assets/organic-divider.svg" width="100%" alt="" />
 
-<!-- ┌──────────────── 💻 NOW CODING ────────────────┐ -->
-
-## 💻 Now Coding
-
-<!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
-
-> 💡 _This section auto-updates daily via [WakaTime](https://wakatime.com) — install the plugin in your IDE to track coding activity!_
-
-<img src="./assets/divider.svg" width="100%" />
-
-<!-- ┌──────────────── 📈 ACTIVITY GRAPH ────────────────┐ -->
-
-## 📈 Contribution Activity
+## Contribution activity
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shard-c6&bg_color=0d1117&color=00d9ff&line=00d9ff&point=ffffff&area=true&area_color=00d9ff&hide_border=true&custom_title=Shardul's%20Contribution%20Graph" alt="Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shard-c6&bg_color=f5ead8&color=201e1d&line=c67139&point=7a8a5e&area=true&area_color=c67139&hide_border=true&radius=16&custom_title=Contribution%20graph" alt="Activity graph" />
 </p>
 
-<img src="./assets/divider.svg" width="100%" />
+<img src="./assets/organic-divider.svg" width="100%" alt="" />
 
-<!-- ┌──────────────── 🏙️ 3D CONTRIBUTION SKYLINE ────────────────┐ -->
-
-## 🏙️ 3D Contribution Skyline
+## 3D contribution skyline
 
 <!--
-  ⚡ This section requires the GitHub Action in .github/workflows/3d-contrib.yml
-  Run it manually the first time: Actions → GitHub Profile 3D Contrib → Run workflow
-  The SVG will be auto-generated at profile-3d-contrib/profile-night-rainbow.svg
+  Generated daily by .github/workflows/3d-contrib.yml
+  First run: Actions → GitHub Profile 3D Contrib → Run workflow
 -->
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-green.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green-animate.svg" />
-    <img src="./profile-3d-contrib/profile-night-green.svg" alt="3D Contribution Calendar" width="100%" />
+    <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green.svg" />
+    <img src="./profile-3d-contrib/profile-green.svg" alt="3D contribution calendar" width="100%" />
   </picture>
 </p>
 
-> 🔮 _This isometric skyline is auto-generated daily via [GitHub Actions](https://github.com/yoshi389111/github-profile-3d-contrib) — each bar represents a day of commits!_
+<img src="./assets/organic-divider.svg" width="100%" alt="" />
 
-<img src="./assets/divider.svg" width="100%" />
-
-<!-- ┌──────────────── 📊 METRICS DASHBOARD ────────────────┐ -->
-
-## 📊 Metrics Dashboard
+## Metrics dashboard
 
 <!--
-  ⚡ This section requires the GitHub Action in .github/workflows/metrics.yml
-  You must create a Personal Access Token and add it as METRICS_TOKEN secret.
-  Run it manually the first time: Actions → GitHub Metrics → Run workflow
+  Generated daily by .github/workflows/metrics.yml (needs the METRICS_TOKEN secret).
 -->
 
 <p align="center">
-  <img src="./assets/github-metrics.svg" width="100%" alt="GitHub Metrics Dashboard" />
+  <img src="./assets/github-metrics.svg" width="100%" alt="GitHub metrics dashboard" />
 </p>
 
-> 📈 _Full infographic auto-generated daily — languages, habits, isocalendar, and more via [lowlighter/metrics](https://github.com/lowlighter/metrics)_
+<img src="./assets/organic-divider.svg" width="100%" alt="" />
 
-<img src="./assets/divider.svg" width="100%" />
-
-<!-- ┌──────────────── 🏆 TROPHIES ────────────────┐ -->
-
-## 🏆 GitHub Trophies
+## Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=shard-c6&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=10" alt="Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=shard-c6&theme=flat&no-frame=true&no-bg=true&column=7&margin-w=10" alt="Trophies" />
 </p>
 
-<img src="./assets/divider.svg" width="100%" />
+<img src="./assets/organic-divider.svg" width="100%" alt="" />
 
-<!-- ┌──────────────── 🐍 SNAKE ANIMATION ────────────────┐ -->
-
-## 🐍 Watch the Snake Devour My Contributions
+## Snake
 
 <!--
-  ⚡ This section requires the GitHub Action in .github/workflows/snake.yml
-  Run it manually the first time: Actions → Generate Snake Animation → Run workflow
-  The SVG will be auto-generated on the 'output' branch
+  Generated by .github/workflows/snake.yml onto the 'output' branch.
 -->
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shard-c6/shard-c6/output/github-contribution-grid-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shard-c6/shard-c6/output/github-contribution-grid-snake.svg" />
-    <img src="https://raw.githubusercontent.com/shard-c6/shard-c6/output/github-contribution-grid-snake-dark.svg" alt="Snake eating contributions" width="100%" />
+    <img src="https://raw.githubusercontent.com/shard-c6/shard-c6/output/github-contribution-grid-snake-dark.svg" alt="Snake eating the contribution grid" width="100%" />
   </picture>
 </p>
 
-<img src="./assets/divider.svg" width="100%" />
+<img src="./assets/organic-divider.svg" width="100%" alt="" />
 
-<!-- ┌──────────────── ✍️ DYNAMIC QUOTES ────────────────┐ -->
+## Tech constellation
 
-## ✍️ Dev Quotes Terminal
+> Every skill is a star. Every project is a sun.
 
 <p align="center">
-  <img src="./assets/quotes-terminal.svg" width="100%" alt="Dev Quotes Terminal" />
+  <img src="./assets/starmap.svg" width="100%" alt="Tech constellation star map" />
 </p>
 
-<img src="./assets/divider.svg" width="100%" />
+<img src="./assets/organic-divider.svg" width="100%" alt="" />
 
-<!-- ┌──────────────── ⚡ FUN STATS ────────────────┐ -->
-
-<details>
-<summary>⚡ Fun Stats & Metrics</summary>
-<br>
+## Dev quotes terminal
 
 <p align="center">
-  <img src="https://github-readme-stats.shion.dev/api/pin/?username=shard-c6&repo=shard-c6&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9&icon_color=00d9ff" alt="Repo Card" />
+  <img src="./assets/quotes-terminal.svg" width="100%" alt="Dev quotes terminal" />
 </p>
 
-<!--
-  Add more pinned repos here as you build them:
-  <img src="https://github-readme-stats.shion.dev/api/pin/?username=shard-c6&repo=YOUR_REPO_NAME&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9&icon_color=00d9ff" />
--->
-
-</details>
-
-
-<!-- ┌──────────────── 🌌 TECH CONSTELLATION ────────────────┐ -->
-
-## 🌌 Tech Constellation
-
-> _Every skill is a star. Every project is a sun. This is my corner of the universe._
+<img src="./assets/organic-divider.svg" width="100%" alt="" />
 
 <p align="center">
-  <img src="./assets/starmap.svg" width="100%" alt="Tech Constellation Star Map" />
-</p>
-
-<img src="./assets/divider.svg" width="100%" />
-
-<!-- ┌──────────────── 💻 MACBOOK TERMINAL FOOTER ────────────────┐ -->
-<p align="center">
-  <img src="./assets/macbook-footer.svg" width="100%" alt="MacBook Terminal Footer" />
+  <img src="./assets/macbook-footer.svg" width="100%" alt="Terminal footer" />
 </p>
