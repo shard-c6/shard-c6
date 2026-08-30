@@ -4,9 +4,6 @@ on:
   schedule:
     - cron: "0 0 * * *"   # Every day at midnight
   workflow_dispatch:        # Manual trigger
-  push:
-    branches:
-      - main
 
 jobs:
   github-metrics:
