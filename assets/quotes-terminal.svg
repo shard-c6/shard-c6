@@ -66,10 +66,11 @@
 
   <!-- Prompt -->
   <text x="20" y="60" class="prompt">$ fortune | cowthink</text>
-  <text x="20" y="90" class="quote-text" style="animation-delay: 0.5s">"Errors using inadequate data are much less than</text>
-  <text x="20" y="110" class="quote-text" style="animation-delay: 0.7s">those using no data at all."</text>
-  <text x="20" y="140" class="author-text" style="animation-delay: 0.8999999999999999s">— Charles Babbage</text>
+  <text x="20" y="90" class="quote-text" style="animation-delay: 0.5s">"Without big data analytics, companies are blind</text>
+  <text x="20" y="110" class="quote-text" style="animation-delay: 0.7s">and deaf, wandering onto the web like deer on a</text>
+  <text x="20" y="130" class="quote-text" style="animation-delay: 0.8999999999999999s">freeway."</text>
+  <text x="20" y="160" class="author-text" style="animation-delay: 1.0999999999999999s">— Geoffrey Moore</text>
 
   <!-- Prompt 2 -->
-  <text x="20" y="180" class="prompt" style="opacity: 0; animation: type 0.1s 1.4s forwards">$ <tspan class="blink-cursor">▊</tspan></text>
+  <text x="20" y="200" class="prompt" style="opacity: 0; animation: type 0.1s 1.5999999999999999s forwards">$ <tspan class="blink-cursor">▊</tspan></text>
 </svg>
