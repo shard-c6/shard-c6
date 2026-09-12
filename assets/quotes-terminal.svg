@@ -66,9 +66,9 @@
 
   <!-- Prompt -->
   <text x="20" y="60" class="prompt">$ fortune | cowthink</text>
-  <text x="20" y="90" class="quote-text" style="animation-delay: 0.5s">"It is not that we have a short time to live, but</text>
-  <text x="20" y="110" class="quote-text" style="animation-delay: 0.7s">that we waste a lot of it."</text>
-  <text x="20" y="140" class="author-text" style="animation-delay: 0.8999999999999999s">— Seneca</text>
+  <text x="20" y="90" class="quote-text" style="animation-delay: 0.5s">"If at first you don’t succeed; call it version</text>
+  <text x="20" y="110" class="quote-text" style="animation-delay: 0.7s">1.0"</text>
+  <text x="20" y="140" class="author-text" style="animation-delay: 0.8999999999999999s">— Unknown</text>
 
   <!-- Prompt 2 -->
   <text x="20" y="180" class="prompt" style="opacity: 0; animation: type 0.1s 1.4s forwards">$ <tspan class="blink-cursor">▊</tspan></text>
