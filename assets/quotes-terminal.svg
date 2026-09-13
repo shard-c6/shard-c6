@@ -66,10 +66,13 @@
 
   <!-- Prompt -->
   <text x="20" y="60" class="prompt">$ fortune | cowthink</text>
-  <text x="20" y="90" class="quote-text" style="animation-delay: 0.5s">"If at first you don’t succeed; call it version</text>
-  <text x="20" y="110" class="quote-text" style="animation-delay: 0.7s">1.0"</text>
-  <text x="20" y="140" class="author-text" style="animation-delay: 0.8999999999999999s">— Unknown</text>
+  <text x="20" y="90" class="quote-text" style="animation-delay: 0.5s">"Let us change our traditional attitude to the</text>
+  <text x="20" y="110" class="quote-text" style="animation-delay: 0.7s">construction of programs. Instead of imagining</text>
+  <text x="20" y="130" class="quote-text" style="animation-delay: 0.8999999999999999s">that our main task is to instruct a computer what</text>
+  <text x="20" y="150" class="quote-text" style="animation-delay: 1.0999999999999999s">to do, let us concentrate rather on explaining to</text>
+  <text x="20" y="170" class="quote-text" style="animation-delay: 1.2999999999999998s">human beings what we want a computer to do."</text>
+  <text x="20" y="200" class="author-text" style="animation-delay: 1.4999999999999998s">— Donald Knuth</text>
 
   <!-- Prompt 2 -->
-  <text x="20" y="180" class="prompt" style="opacity: 0; animation: type 0.1s 1.4s forwards">$ <tspan class="blink-cursor">▊</tspan></text>
+  <text x="20" y="240" class="prompt" style="opacity: 0; animation: type 0.1s 1.9999999999999998s forwards">$ <tspan class="blink-cursor">▊</tspan></text>
 </svg>
