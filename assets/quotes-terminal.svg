@@ -66,10 +66,11 @@
 
   <!-- Prompt -->
   <text x="20" y="60" class="prompt">$ fortune | cowthink</text>
-  <text x="20" y="90" class="quote-text" style="animation-delay: 0.5s">"Optimism is an occupational hazard of</text>
-  <text x="20" y="110" class="quote-text" style="animation-delay: 0.7s">programming: feedback is the treatment."</text>
-  <text x="20" y="140" class="author-text" style="animation-delay: 0.8999999999999999s">— Kent Beck</text>
+  <text x="20" y="90" class="quote-text" style="animation-delay: 0.5s">"Always code as if the guy who ends up</text>
+  <text x="20" y="110" class="quote-text" style="animation-delay: 0.7s">maintaining your code will be a violent</text>
+  <text x="20" y="130" class="quote-text" style="animation-delay: 0.8999999999999999s">psychopath who knows where you live."</text>
+  <text x="20" y="160" class="author-text" style="animation-delay: 1.0999999999999999s">— John Woods</text>
 
   <!-- Prompt 2 -->
-  <text x="20" y="180" class="prompt" style="opacity: 0; animation: type 0.1s 1.4s forwards">$ <tspan class="blink-cursor">▊</tspan></text>
+  <text x="20" y="200" class="prompt" style="opacity: 0; animation: type 0.1s 1.5999999999999999s forwards">$ <tspan class="blink-cursor">▊</tspan></text>
 </svg>
