@@ -66,11 +66,10 @@
 
   <!-- Prompt -->
   <text x="20" y="60" class="prompt">$ fortune | cowthink</text>
-  <text x="20" y="90" class="quote-text" style="animation-delay: 0.5s">"There are two hard things in computer science:</text>
-  <text x="20" y="110" class="quote-text" style="animation-delay: 0.7s">cache invalidation, naming things, and off-by-one</text>
-  <text x="20" y="130" class="quote-text" style="animation-delay: 0.8999999999999999s">errors."</text>
-  <text x="20" y="160" class="author-text" style="animation-delay: 1.0999999999999999s">— Phil Karlton</text>
+  <text x="20" y="90" class="quote-text" style="animation-delay: 0.5s">"Programs must be written for people to read, and</text>
+  <text x="20" y="110" class="quote-text" style="animation-delay: 0.7s">only incidentally for machines to execute."</text>
+  <text x="20" y="140" class="author-text" style="animation-delay: 0.8999999999999999s">— Harold Abelson</text>
 
   <!-- Prompt 2 -->
-  <text x="20" y="200" class="prompt" style="opacity: 0; animation: type 0.1s 1.5999999999999999s forwards">$ <tspan class="blink-cursor">▊</tspan></text>
+  <text x="20" y="180" class="prompt" style="opacity: 0; animation: type 0.1s 1.4s forwards">$ <tspan class="blink-cursor">▊</tspan></text>
 </svg>
