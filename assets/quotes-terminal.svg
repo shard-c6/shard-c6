@@ -66,10 +66,11 @@
 
   <!-- Prompt -->
   <text x="20" y="60" class="prompt">$ fortune | cowthink</text>
-  <text x="20" y="90" class="quote-text" style="animation-delay: 0.5s">"Programming is the art of algorithm design and</text>
-  <text x="20" y="110" class="quote-text" style="animation-delay: 0.7s">the craft of debugging errant code."</text>
-  <text x="20" y="140" class="author-text" style="animation-delay: 0.8999999999999999s">— Ellen Ullman</text>
+  <text x="20" y="90" class="quote-text" style="animation-delay: 0.5s">"Measuring programming progress by lines of code</text>
+  <text x="20" y="110" class="quote-text" style="animation-delay: 0.7s">is like measuring airplane building progress by</text>
+  <text x="20" y="130" class="quote-text" style="animation-delay: 0.8999999999999999s">weight."</text>
+  <text x="20" y="160" class="author-text" style="animation-delay: 1.0999999999999999s">— Bill Gates</text>
 
   <!-- Prompt 2 -->
-  <text x="20" y="180" class="prompt" style="opacity: 0; animation: type 0.1s 1.4s forwards">$ <tspan class="blink-cursor">▊</tspan></text>
+  <text x="20" y="200" class="prompt" style="opacity: 0; animation: type 0.1s 1.5999999999999999s forwards">$ <tspan class="blink-cursor">▊</tspan></text>
 </svg>
