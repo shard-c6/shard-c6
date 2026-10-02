@@ -1,0 +1,39 @@
+<!-- Mockup B · "Signal" — anomaly-detection story, amber accent. Assets: ./assets (run mockups/build.py) -->
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg" /><img src="./assets/hero-light.svg" width="100%" alt="Shardul Chogale — ML, data engineering and network security. Open to GSoC 2027 and ML / data engineering internships." /></picture>
+
+<p align="right">
+  <a href="https://linkedin.com/in/shardul-c-6a3b73273/">LinkedIn</a> ·
+  <a href="https://medium.com/@shardulchogale1983">Medium</a> ·
+  <a href="https://x.com/ShardC008">X</a> ·
+  <a href="mailto:shardulchogale1983@gmail.com">Email</a>
+</p>
+
+### What I do
+
+I build ML and data systems end to end, and I like the ones that have to notice when something is wrong:
+intrusion detection on live network traffic, entity resolution across millions of messy records, and RAG
+over real NGO data. Computer Engineering @ VIT Mumbai, CGPA 9.5/10.
+
+### Where I'm headed
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/roadmap-dark.svg" /><img src="./assets/roadmap-light.svg" width="100%" alt="Roadmap: B.Tech at VIT Mumbai 2024, open source 2025, hackathons 2026, MOSIP Decode now, GSoC 2027, goal ML / Data Engineer" /></picture>
+
+### Highlights
+
+| Project | What it does | Result |
+| :-- | :-- | :-- |
+| **NetForecast** · SIH 2026, team lead | LSTM world model on CIC-IDS2018, scored by Mahalanobis distance-from-normal | AUC **0.984** on unseen attacks (vs 0.672) |
+| **Amazon ML Challenge 2026** | Entity resolution across 3 sources in 72 hours | macro F0.5 **0.712 → 0.882** at 7.6M records |
+| **[GreenGuard](https://github.com/shard-c6/GreenGuard)** · team lead | Plant-adoption platform for a Mumbai NGO; RAG with RRF over pgvector + FTS | 380+ commits, PostGIS matching |
+| **[opensre](https://github.com/shard-c6/opensre)** | Open-source SRE tooling | EKS refactor, dedup fix, suite-wide test protocol |
+| **EVNet Sentinel** | Reproduced an online IDS paper on CICEVSE2024 | Found timestamp leakage inflating results |
+| **MOSIP Decode 2026** | OpenID conformance runner for Inji Certify/Verify | Gates MOSIP releases |
+
+### Activity
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/streak-waveform-dark.svg" /><img src="./assets/streak-waveform-light.svg" width="100%" alt="Contribution waveform: current streak, longest streak, past-year total and active days" /></picture>
+
+### Stack
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack-layers-dark.svg" /><img src="./assets/stack-layers-light.svg" width="100%" alt="Stack grouped by layer: serve, learn, store, process, ship, secure" /></picture>

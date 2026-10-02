@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1170" height="590" viewBox="0 0 1170 590" role="img" aria-label="Stack used per project: Python: Amazon ML, EVNet, MOSIP, NetForecast, opensre, pong-rl; PyTorch: NetForecast, pong-rl; scikit-learn: EVNet; XGBoost: Amazon ML; River (online ML): EVNet; FastAPI: NetForecast, pong-rl; Next.js: EVNet, GreenGuard; PostgreSQL / Supabase: GreenGuard; pgvector + PostGIS: GreenGuard; Docker: MOSIP; AWS (EC2, S3): Amazon ML; GitHub Actions: GreenGuard; pytest + ruff: opensre; Wireshark / pcap: NetForecast">
+<title>Stack used per project: Python: Amazon ML, EVNet, MOSIP, NetForecast, opensre, pong-rl; PyTorch: NetForecast, pong-rl; scikit-learn: EVNet; XGBoost: Amazon ML; River (online ML): EVNet; FastAPI: NetForecast, pong-rl; Next.js: EVNet, GreenGuard; PostgreSQL / Supabase: GreenGuard; pgvector + PostGIS: GreenGuard; Docker: MOSIP; AWS (EC2, S3): Amazon ML; GitHub Actions: GreenGuard; pytest + ruff: opensre; Wireshark / pcap: NetForecast</title>
+<style>
+svg{--ink:#1f2328;--muted:#59636e;--faint:#818b98;--line:#d1d9e0;--panel:#f6f8fa;--bg:#ffffff;--warn:#9a6700;--acc:#bc4c00}
+.ink{fill:var(--ink)}.muted{fill:var(--muted)}.faint{fill:var(--faint)}.acc{fill:var(--acc)}.warn{fill:var(--warn)}
+.bg{fill:var(--bg)}.panel{fill:var(--panel)}.nofill{fill:none}
+.s-line{stroke:var(--line)}.s-acc{stroke:var(--acc)}.s-faint{stroke:var(--faint)}.s-warn{stroke:var(--warn)}.s-ink{stroke:var(--ink)}.s-bg{stroke:var(--bg)}
+.sans{font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Noto Sans&quot;,Helvetica,Arial,sans-serif}.mono{font-family:ui-monospace,SFMono-Regular,&quot;SF Mono&quot;,Menlo,Consolas,&quot;Liberation Mono&quot;,monospace}
+.pulse{animation:pulse 2.4s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.2}}
+.rise{opacity:0;animation:rise .8s cubic-bezier(.2,.7,.2,1) forwards}
+@keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important;opacity:1!important}.motion{display:none}}
+</style>
+<rect x="1" y="1" width="1168" height="588" rx="16" class="panel s-line" stroke-width="1.5"/>
+<text x="28" y="40" class="mono muted" font-size="15">stack × shipped projects</text>
+<text x="1142" y="40" text-anchor="end" class="mono faint" font-size="15">uses</text>
+<text x="330.0" y="70" text-anchor="middle" class="sans ink" font-size="15" font-weight="600">NetForecast</text>
+<text x="450.0" y="70" text-anchor="middle" class="sans ink" font-size="15" font-weight="600">Amazon ML</text>
+<text x="570.0" y="70" text-anchor="middle" class="sans ink" font-size="15" font-weight="600">GreenGuard</text>
+<text x="690.0" y="70" text-anchor="middle" class="sans ink" font-size="15" font-weight="600">opensre</text>
+<text x="810.0" y="70" text-anchor="middle" class="sans ink" font-size="15" font-weight="600">EVNet</text>
+<text x="930.0" y="70" text-anchor="middle" class="sans ink" font-size="15" font-weight="600">MOSIP</text>
+<text x="1050.0" y="70" text-anchor="middle" class="sans ink" font-size="15" font-weight="600">pong-rl</text>
+<rect x="12" y="84.0" width="1146" height="34" rx="6" class="bg" opacity=".6"/>
+<text x="28" y="107.0" class="sans ink" font-size="17">Python</text>
+<circle cx="330.0" cy="101.0" r="7" class="acc rise" style="animation-delay:0.20s"/>
+<circle cx="450.0" cy="101.0" r="7" class="acc rise" style="animation-delay:0.32s"/>
+<circle cx="570.0" cy="101.0" r="2" class="faint"/>
+<circle cx="690.0" cy="101.0" r="7" class="acc rise" style="animation-delay:0.56s"/>
+<circle cx="810.0" cy="101.0" r="7" class="acc rise" style="animation-delay:0.68s"/>
+<circle cx="930.0" cy="101.0" r="7" class="acc rise" style="animation-delay:0.80s"/>
+<circle cx="1050.0" cy="101.0" r="7" class="acc rise" style="animation-delay:0.92s"/>
+<text x="1142" y="107.0" text-anchor="end" class="mono muted" font-size="15">6</text>
+<text x="28" y="141.0" class="sans ink" font-size="17">PyTorch</text>
+<circle cx="330.0" cy="135.0" r="7" class="acc rise" style="animation-delay:0.22s"/>
+<circle cx="450.0" cy="135.0" r="2" class="faint"/>
+<circle cx="570.0" cy="135.0" r="2" class="faint"/>
+<circle cx="690.0" cy="135.0" r="2" class="faint"/>
+<circle cx="810.0" cy="135.0" r="2" class="faint"/>
+<circle cx="930.0" cy="135.0" r="2" class="faint"/>
+<circle cx="1050.0" cy="135.0" r="7" class="acc rise" style="animation-delay:0.94s"/>
+<text x="1142" y="141.0" text-anchor="end" class="mono muted" font-size="15">2</text>
+<rect x="12" y="152.0" width="1146" height="34" rx="6" class="bg" opacity=".6"/>
+<text x="28" y="175.0" class="sans ink" font-size="17">scikit-learn</text>
+<circle cx="330.0" cy="169.0" r="2" class="faint"/>
+<circle cx="450.0" cy="169.0" r="2" class="faint"/>
+<circle cx="570.0" cy="169.0" r="2" class="faint"/>
+<circle cx="690.0" cy="169.0" r="2" class="faint"/>
+<circle cx="810.0" cy="169.0" r="7" class="acc rise" style="animation-delay:0.72s"/>
+<circle cx="930.0" cy="169.0" r="2" class="faint"/>
+<circle cx="1050.0" cy="169.0" r="2" class="faint"/>
+<text x="1142" y="175.0" text-anchor="end" class="mono muted" font-size="15">1</text>
+<text x="28" y="209.0" class="sans ink" font-size="17">XGBoost</text>
+<circle cx="330.0" cy="203.0" r="2" class="faint"/>
+<circle cx="450.0" cy="203.0" r="7" class="acc rise" style="animation-delay:0.38s"/>
+<circle cx="570.0" cy="203.0" r="2" class="faint"/>
+<circle cx="690.0" cy="203.0" r="2" class="faint"/>
+<circle cx="810.0" cy="203.0" r="2" class="faint"/>
+<circle cx="930.0" cy="203.0" r="2" class="faint"/>
+<circle cx="1050.0" cy="203.0" r="2" class="faint"/>
+<text x="1142" y="209.0" text-anchor="end" class="mono muted" font-size="15">1</text>
+<rect x="12" y="220.0" width="1146" height="34" rx="6" class="bg" opacity=".6"/>
+<text x="28" y="243.0" class="sans ink" font-size="17">River (online ML)</text>
+<circle cx="330.0" cy="237.0" r="2" class="faint"/>
+<circle cx="450.0" cy="237.0" r="2" class="faint"/>
+<circle cx="570.0" cy="237.0" r="2" class="faint"/>
+<circle cx="690.0" cy="237.0" r="2" class="faint"/>
+<circle cx="810.0" cy="237.0" r="7" class="acc rise" style="animation-delay:0.76s"/>
+<circle cx="930.0" cy="237.0" r="2" class="faint"/>
+<circle cx="1050.0" cy="237.0" r="2" class="faint"/>
+<text x="1142" y="243.0" text-anchor="end" class="mono muted" font-size="15">1</text>
+<text x="28" y="277.0" class="sans ink" font-size="17">FastAPI</text>
+<circle cx="330.0" cy="271.0" r="7" class="acc rise" style="animation-delay:0.30s"/>
+<circle cx="450.0" cy="271.0" r="2" class="faint"/>
+<circle cx="570.0" cy="271.0" r="2" class="faint"/>
+<circle cx="690.0" cy="271.0" r="2" class="faint"/>
+<circle cx="810.0" cy="271.0" r="2" class="faint"/>
+<circle cx="930.0" cy="271.0" r="2" class="faint"/>
+<circle cx="1050.0" cy="271.0" r="7" class="acc rise" style="animation-delay:1.02s"/>
+<text x="1142" y="277.0" text-anchor="end" class="mono muted" font-size="15">2</text>
+<rect x="12" y="288.0" width="1146" height="34" rx="6" class="bg" opacity=".6"/>
+<text x="28" y="311.0" class="sans ink" font-size="17">Next.js</text>
+<circle cx="330.0" cy="305.0" r="2" class="faint"/>
+<circle cx="450.0" cy="305.0" r="2" class="faint"/>
+<circle cx="570.0" cy="305.0" r="7" class="acc rise" style="animation-delay:0.56s"/>
+<circle cx="690.0" cy="305.0" r="2" class="faint"/>
+<circle cx="810.0" cy="305.0" r="7" class="acc rise" style="animation-delay:0.80s"/>
+<circle cx="930.0" cy="305.0" r="2" class="faint"/>
+<circle cx="1050.0" cy="305.0" r="2" class="faint"/>
+<text x="1142" y="311.0" text-anchor="end" class="mono muted" font-size="15">2</text>
+<text x="28" y="345.0" class="sans ink" font-size="17">PostgreSQL / Supabase</text>
+<circle cx="330.0" cy="339.0" r="2" class="faint"/>
+<circle cx="450.0" cy="339.0" r="2" class="faint"/>
+<circle cx="570.0" cy="339.0" r="7" class="acc rise" style="animation-delay:0.58s"/>
+<circle cx="690.0" cy="339.0" r="2" class="faint"/>
+<circle cx="810.0" cy="339.0" r="2" class="faint"/>
+<circle cx="930.0" cy="339.0" r="2" class="faint"/>
+<circle cx="1050.0" cy="339.0" r="2" class="faint"/>
+<text x="1142" y="345.0" text-anchor="end" class="mono muted" font-size="15">1</text>
+<rect x="12" y="356.0" width="1146" height="34" rx="6" class="bg" opacity=".6"/>
+<text x="28" y="379.0" class="sans ink" font-size="17">pgvector + PostGIS</text>
+<circle cx="330.0" cy="373.0" r="2" class="faint"/>
+<circle cx="450.0" cy="373.0" r="2" class="faint"/>
+<circle cx="570.0" cy="373.0" r="7" class="acc rise" style="animation-delay:0.60s"/>
+<circle cx="690.0" cy="373.0" r="2" class="faint"/>
+<circle cx="810.0" cy="373.0" r="2" class="faint"/>
+<circle cx="930.0" cy="373.0" r="2" class="faint"/>
+<circle cx="1050.0" cy="373.0" r="2" class="faint"/>
+<text x="1142" y="379.0" text-anchor="end" class="mono muted" font-size="15">1</text>
+<text x="28" y="413.0" class="sans ink" font-size="17">Docker</text>
+<circle cx="330.0" cy="407.0" r="2" class="faint"/>
+<circle cx="450.0" cy="407.0" r="2" class="faint"/>
+<circle cx="570.0" cy="407.0" r="2" class="faint"/>
+<circle cx="690.0" cy="407.0" r="2" class="faint"/>
+<circle cx="810.0" cy="407.0" r="2" class="faint"/>
+<circle cx="930.0" cy="407.0" r="7" class="acc rise" style="animation-delay:0.98s"/>
+<circle cx="1050.0" cy="407.0" r="2" class="faint"/>
+<text x="1142" y="413.0" text-anchor="end" class="mono muted" font-size="15">1</text>
+<rect x="12" y="424.0" width="1146" height="34" rx="6" class="bg" opacity=".6"/>
+<text x="28" y="447.0" class="sans ink" font-size="17">AWS (EC2, S3)</text>
+<circle cx="330.0" cy="441.0" r="2" class="faint"/>
+<circle cx="450.0" cy="441.0" r="7" class="acc rise" style="animation-delay:0.52s"/>
+<circle cx="570.0" cy="441.0" r="2" class="faint"/>
+<circle cx="690.0" cy="441.0" r="2" class="faint"/>
+<circle cx="810.0" cy="441.0" r="2" class="faint"/>
+<circle cx="930.0" cy="441.0" r="2" class="faint"/>
+<circle cx="1050.0" cy="441.0" r="2" class="faint"/>
+<text x="1142" y="447.0" text-anchor="end" class="mono muted" font-size="15">1</text>
+<text x="28" y="481.0" class="sans ink" font-size="17">GitHub Actions</text>
+<circle cx="330.0" cy="475.0" r="2" class="faint"/>
+<circle cx="450.0" cy="475.0" r="2" class="faint"/>
+<circle cx="570.0" cy="475.0" r="7" class="acc rise" style="animation-delay:0.66s"/>
+<circle cx="690.0" cy="475.0" r="2" class="faint"/>
+<circle cx="810.0" cy="475.0" r="2" class="faint"/>
+<circle cx="930.0" cy="475.0" r="2" class="faint"/>
+<circle cx="1050.0" cy="475.0" r="2" class="faint"/>
+<text x="1142" y="481.0" text-anchor="end" class="mono muted" font-size="15">1</text>
+<rect x="12" y="492.0" width="1146" height="34" rx="6" class="bg" opacity=".6"/>
+<text x="28" y="515.0" class="sans ink" font-size="17">pytest + ruff</text>
+<circle cx="330.0" cy="509.0" r="2" class="faint"/>
+<circle cx="450.0" cy="509.0" r="2" class="faint"/>
+<circle cx="570.0" cy="509.0" r="2" class="faint"/>
+<circle cx="690.0" cy="509.0" r="7" class="acc rise" style="animation-delay:0.80s"/>
+<circle cx="810.0" cy="509.0" r="2" class="faint"/>
+<circle cx="930.0" cy="509.0" r="2" class="faint"/>
+<circle cx="1050.0" cy="509.0" r="2" class="faint"/>
+<text x="1142" y="515.0" text-anchor="end" class="mono muted" font-size="15">1</text>
+<text x="28" y="549.0" class="sans ink" font-size="17">Wireshark / pcap</text>
+<circle cx="330.0" cy="543.0" r="7" class="acc rise" style="animation-delay:0.46s"/>
+<circle cx="450.0" cy="543.0" r="2" class="faint"/>
+<circle cx="570.0" cy="543.0" r="2" class="faint"/>
+<circle cx="690.0" cy="543.0" r="2" class="faint"/>
+<circle cx="810.0" cy="543.0" r="2" class="faint"/>
+<circle cx="930.0" cy="543.0" r="2" class="faint"/>
+<circle cx="1050.0" cy="543.0" r="2" class="faint"/>
+<text x="1142" y="549.0" text-anchor="end" class="mono muted" font-size="15">1</text>
+</svg>

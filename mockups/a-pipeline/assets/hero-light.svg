@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Shardul Chogale — ML and data engineer building systems end to end">
+<title>Shardul Chogale — ML and data engineer building systems end to end</title>
+<style>
+svg{--ink:#1f2328;--muted:#59636e;--faint:#818b98;--line:#d1d9e0;--panel:#f6f8fa;--bg:#ffffff;--warn:#9a6700;--acc:#0969da}
+.ink{fill:var(--ink)}.muted{fill:var(--muted)}.faint{fill:var(--faint)}.acc{fill:var(--acc)}.warn{fill:var(--warn)}
+.bg{fill:var(--bg)}.panel{fill:var(--panel)}.nofill{fill:none}
+.s-line{stroke:var(--line)}.s-acc{stroke:var(--acc)}.s-faint{stroke:var(--faint)}.s-warn{stroke:var(--warn)}.s-ink{stroke:var(--ink)}.s-bg{stroke:var(--bg)}
+.sans{font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Noto Sans&quot;,Helvetica,Arial,sans-serif}.mono{font-family:ui-monospace,SFMono-Regular,&quot;SF Mono&quot;,Menlo,Consolas,&quot;Liberation Mono&quot;,monospace}
+.pulse{animation:pulse 2.4s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.2}}
+.rise{opacity:0;animation:rise .8s cubic-bezier(.2,.7,.2,1) forwards}
+@keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important;opacity:1!important}.motion{display:none}}
+</style>
+
+<text x="2" y="64" class="mono acc rise" font-size="16" letter-spacing="3">ML · DATA ENGINEERING</text>
+<text x="0" y="138" class="sans ink rise" font-size="62" font-weight="700" letter-spacing="-1.5" style="animation-delay:.1s">Shardul Chogale</text>
+<text x="2" y="188" class="sans muted rise" font-size="22" style="animation-delay:0.20s">I build ML and data systems end to end —</text>
+<text x="2" y="219" class="sans muted rise" font-size="22" style="animation-delay:0.25s">from messy raw data to models in production.</text>
+<g class="rise" style="animation-delay:.35s"><rect x="2" y="264" width="210" height="38" rx="19" class="nofill s-line" stroke-width="1.5"/>
+<circle cx="24" cy="283" r="5" class="acc pulse"/>
+<text x="39" y="289" class="sans ink" font-size="17">Open to GSoC 2027</text>
+<rect x="224" y="264" width="227" height="38" rx="19" class="nofill s-line" stroke-width="1.5"/>
+<text x="241" y="289" class="sans muted" font-size="17">ML / data internships</text>
+<rect x="463" y="264" width="126" height="38" rx="19" class="nofill s-line" stroke-width="1.5"/>
+<text x="480" y="289" class="sans muted" font-size="17">Mumbai, IN</text></g>
+<rect x="648" y="14" width="552" height="312" rx="16" class="panel s-line" stroke-width="1.5"/>
+<text x="670" y="48" class="mono muted" font-size="15">pipeline.dag</text>
+<circle cx="1104" cy="43" r="5" class="acc pulse"/>
+<text x="1116" y="48" class="mono muted" font-size="15">running</text>
+<line x1="648" y1="66" x2="1200" y2="66" class="s-line" stroke-width="1.5"/>
+<text x="724.0" y="88" text-anchor="middle" class="mono faint" font-size="13">ingest</text><text x="857.0" y="88" text-anchor="middle" class="mono faint" font-size="13">transform</text><text x="990.0" y="88" text-anchor="middle" class="mono faint" font-size="13">store</text><text x="1123.0" y="88" text-anchor="middle" class="mono faint" font-size="13">learn</text>
+<path d="M724,128 H1123" class="nofill s-line" stroke-width="2"/><path d="M724,234 H857 V128 H1123" class="nofill s-line" stroke-width="2"/><path d="M1123,128 V234" class="nofill s-line" stroke-width="2"/><path d="M1123,128 V181 H990 V234" class="nofill s-line" stroke-width="2"/>
+<g class="motion"><circle r="4.5" class="acc" opacity="0"><set attributeName="opacity" to="1" begin="0.00s"/><animateMotion dur="4.2s" begin="0.00s" repeatCount="indefinite" path="M724,128 H1123"/></circle><circle r="4.5" class="acc" opacity="0"><set attributeName="opacity" to="1" begin="1.40s"/><animateMotion dur="4.2s" begin="1.40s" repeatCount="indefinite" path="M724,128 H1123"/></circle><circle r="4.5" class="acc" opacity="0"><set attributeName="opacity" to="1" begin="2.80s"/><animateMotion dur="4.2s" begin="2.80s" repeatCount="indefinite" path="M724,128 H1123"/></circle><circle r="4.5" class="acc" opacity="0"><set attributeName="opacity" to="1" begin="0.70s"/><animateMotion dur="4.2s" begin="0.70s" repeatCount="indefinite" path="M724,234 H857 V128 H1123"/></circle><circle r="4.5" class="acc" opacity="0"><set attributeName="opacity" to="1" begin="2.80s"/><animateMotion dur="4.2s" begin="2.80s" repeatCount="indefinite" path="M724,234 H857 V128 H1123"/></circle><circle r="4.5" class="acc" opacity="0"><set attributeName="opacity" to="1" begin="1.40s"/><animateMotion dur="1.6s" begin="1.40s" repeatCount="indefinite" path="M1123,128 V234"/></circle><circle r="4.5" class="acc" opacity="0"><set attributeName="opacity" to="1" begin="2.10s"/><animateMotion dur="2.2s" begin="2.10s" repeatCount="indefinite" path="M1123,128 V181 H990 V234"/></circle></g>
+<g class="rise" style="animation-delay:0.40s"><rect x="668" y="104" width="112" height="48" rx="10" class="bg s-line" stroke-width="1.5"/><text x="724.0" y="134" text-anchor="middle" class="sans ink" font-size="16" font-weight="600">Records</text></g><g class="rise" style="animation-delay:0.46s"><rect x="801" y="104" width="112" height="48" rx="10" class="bg s-line" stroke-width="1.5"/><text x="857.0" y="134" text-anchor="middle" class="sans ink" font-size="16" font-weight="600">ETL</text></g><g class="rise" style="animation-delay:0.52s"><rect x="934" y="104" width="112" height="48" rx="10" class="bg s-line" stroke-width="1.5"/><text x="990.0" y="134" text-anchor="middle" class="sans ink" font-size="16" font-weight="600">Postgres</text></g><g class="rise" style="animation-delay:0.58s"><rect x="1067" y="104" width="112" height="48" rx="10" class="bg s-line" stroke-width="1.5"/><text x="1123.0" y="134" text-anchor="middle" class="sans ink" font-size="16" font-weight="600">Model</text></g><g class="rise" style="animation-delay:0.64s"><rect x="668" y="210" width="112" height="48" rx="10" class="bg s-line" stroke-width="1.5"/><text x="724.0" y="240" text-anchor="middle" class="sans ink" font-size="16" font-weight="600">pcap</text></g><g class="rise" style="animation-delay:0.70s"><rect x="934" y="210" width="112" height="48" rx="10" class="bg s-line" stroke-width="1.5"/><text x="990.0" y="240" text-anchor="middle" class="sans ink" font-size="16" font-weight="600">FastAPI</text></g><g class="rise" style="animation-delay:0.76s"><rect x="1067" y="210" width="112" height="48" rx="10" class="bg s-line" stroke-width="1.5"/><text x="1123.0" y="240" text-anchor="middle" class="sans ink" font-size="16" font-weight="600">Dashboard</text></g>
+<text x="670" y="306" class="mono faint" font-size="13">ETL/ELT · PostgreSQL · PyTorch · FastAPI</text>
+
+</svg>

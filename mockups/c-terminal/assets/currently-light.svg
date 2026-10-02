@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="432" viewBox="0 0 1200 432" role="img" aria-label="Currently: sih-2026/netforecast (pass); amazon-ml-2026 (pass); mosip-decode (run); opensre (run); gsoc-2027 (queue); internships (queue)">
+<title>Currently: sih-2026/netforecast (pass); amazon-ml-2026 (pass); mosip-decode (run); opensre (run); gsoc-2027 (queue); internships (queue)</title>
+<style>
+svg{--ink:#1f2328;--muted:#59636e;--faint:#818b98;--line:#d1d9e0;--panel:#f6f8fa;--bg:#ffffff;--warn:#9a6700;--acc:#1a7f37}
+.ink{fill:var(--ink)}.muted{fill:var(--muted)}.faint{fill:var(--faint)}.acc{fill:var(--acc)}.warn{fill:var(--warn)}
+.bg{fill:var(--bg)}.panel{fill:var(--panel)}.nofill{fill:none}
+.s-line{stroke:var(--line)}.s-acc{stroke:var(--acc)}.s-faint{stroke:var(--faint)}.s-warn{stroke:var(--warn)}.s-ink{stroke:var(--ink)}.s-bg{stroke:var(--bg)}
+.sans{font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Noto Sans&quot;,Helvetica,Arial,sans-serif}.mono{font-family:ui-monospace,SFMono-Regular,&quot;SF Mono&quot;,Menlo,Consolas,&quot;Liberation Mono&quot;,monospace}
+.pulse{animation:pulse 2.4s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.2}}
+.rise{opacity:0;animation:rise .8s cubic-bezier(.2,.7,.2,1) forwards}
+@keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.spin{transform-box:fill-box;transform-origin:center;animation:spin 1s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.bar{animation:bar 2.2s cubic-bezier(.6,0,.4,1) infinite}
+@keyframes bar{from{transform:translateX(-70px)}to{transform:translateX(190px)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;opacity:1!important}.motion{display:none}}
+</style>
+<rect x="1" y="1" width="1198" height="430" rx="14" class="bg s-line" stroke-width="1.5"/>
+<text x="28" y="40" class="mono ink" font-size="17" font-weight="600">currently.yml</text>
+<text x="1172" y="40" text-anchor="end" class="mono muted" font-size="15">2 passing · 2 running · 2 queued</text>
+<line x1="1" y1="62" x2="1199" y2="62" class="s-line" stroke-width="1.5"/>
+<g class="rise" style="animation-delay:0.15s"><circle cx="42" cy="95.0" r="11" class="acc"/><path d="M36.5,95.0 l4,4 l7,-8" class="nofill s-bg" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><text x="72" y="101.0" class="mono ink" font-size="17">sih-2026/netforecast</text><text x="380" y="101.0" class="sans muted" font-size="17">Team lead · unseen-attack detection, AUC 0.984</text><text x="1172" y="101.0" text-anchor="end" class="mono acc" font-size="15">passing</text></g>
+<g class="rise" style="animation-delay:0.27s"><line x1="28" y1="124" x2="1172" y2="124" class="s-line"/><circle cx="42" cy="153.0" r="11" class="acc"/><path d="M36.5,153.0 l4,4 l7,-8" class="nofill s-bg" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><text x="72" y="159.0" class="mono ink" font-size="17">amazon-ml-2026</text><text x="380" y="159.0" class="sans muted" font-size="17">Entity resolution · macro F0.5 0.882</text><text x="1172" y="159.0" text-anchor="end" class="mono acc" font-size="15">passing</text></g>
+<g class="rise" style="animation-delay:0.39s"><line x1="28" y1="182" x2="1172" y2="182" class="s-line"/><circle cx="42" cy="211.0" r="10" class="nofill s-line" stroke-width="2.4"/><path d="M42,201.0 a10,10 0 0 1 10,10" class="nofill s-warn spin" stroke-width="2.4" stroke-linecap="round"/><clipPath id="b2"><rect x="900" y="208.0" width="140" height="6" rx="3"/></clipPath><rect x="900" y="208.0" width="140" height="6" rx="3" class="panel s-line"/><g clip-path="url(#b2)"><rect x="900" y="208.0" width="70" height="6" rx="3" class="warn bar" style="animation-delay:0.6s"/></g><text x="72" y="217.0" class="mono ink" font-size="17">mosip-decode</text><text x="380" y="217.0" class="sans muted" font-size="17">OpenID conformance automation</text><text x="1172" y="217.0" text-anchor="end" class="mono warn" font-size="15">running</text></g>
+<g class="rise" style="animation-delay:0.51s"><line x1="28" y1="240" x2="1172" y2="240" class="s-line"/><circle cx="42" cy="269.0" r="10" class="nofill s-line" stroke-width="2.4"/><path d="M42,259.0 a10,10 0 0 1 10,10" class="nofill s-warn spin" stroke-width="2.4" stroke-linecap="round"/><clipPath id="b3"><rect x="900" y="266.0" width="140" height="6" rx="3"/></clipPath><rect x="900" y="266.0" width="140" height="6" rx="3" class="panel s-line"/><g clip-path="url(#b3)"><rect x="900" y="266.0" width="70" height="6" rx="3" class="warn bar" style="animation-delay:0.9s"/></g><text x="72" y="275.0" class="mono ink" font-size="17">opensre</text><text x="380" y="275.0" class="sans muted" font-size="17">Open-source contributions</text><text x="1172" y="275.0" text-anchor="end" class="mono warn" font-size="15">running</text></g>
+<g class="rise" style="animation-delay:0.63s"><line x1="28" y1="298" x2="1172" y2="298" class="s-line"/><circle cx="42" cy="327.0" r="10" class="nofill s-faint" stroke-width="2" stroke-dasharray="3 3.3"/><text x="72" y="333.0" class="mono ink" font-size="17">gsoc-2027</text><text x="380" y="333.0" class="sans muted" font-size="17">Researching orgs · drafting proposal</text><text x="1172" y="333.0" text-anchor="end" class="mono faint" font-size="15">queued</text></g>
+<g class="rise" style="animation-delay:0.75s"><line x1="28" y1="356" x2="1172" y2="356" class="s-line"/><circle cx="42" cy="385.0" r="10" class="nofill s-faint" stroke-width="2" stroke-dasharray="3 3.3"/><text x="72" y="391.0" class="mono ink" font-size="17">internships</text><text x="380" y="391.0" class="sans muted" font-size="17">ML / data engineering — let's talk</text><text x="1172" y="391.0" text-anchor="end" class="mono faint" font-size="15">queued</text></g>
+</svg>

@@ -1,0 +1,30 @@
+name: Profile streak
+
+on:
+  schedule:
+    - cron: "30 0 * * *"   # daily, 06:00 IST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  streak:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Regenerate streak SVGs
+        run: python3 scripts/profile/generate.py --streak
+        env:
+          # Optional STREAK_TOKEN (a read-only PAT) also counts private contributions.
+          GITHUB_TOKEN: ${{ secrets.STREAK_TOKEN || secrets.GITHUB_TOKEN }}
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add assets/profile/streak-*.svg
+          git diff --cached --quiet || git commit -m "chore: update streak"
+          git push

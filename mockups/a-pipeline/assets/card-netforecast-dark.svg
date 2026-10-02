@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="168" viewBox="0 0 560 168" role="img" aria-label="NetForecast: SIH 2026 team lead · LSTM IDS flags unseen attacks">
+<title>NetForecast: SIH 2026 team lead · LSTM IDS flags unseen attacks</title>
+<style>
+svg{--ink:#f0f6fc;--muted:#9198a1;--faint:#656c76;--line:#3d444d;--panel:#151b23;--bg:#0d1117;--warn:#d29922;--acc:#4493f8}
+.ink{fill:var(--ink)}.muted{fill:var(--muted)}.faint{fill:var(--faint)}.acc{fill:var(--acc)}.warn{fill:var(--warn)}
+.bg{fill:var(--bg)}.panel{fill:var(--panel)}.nofill{fill:none}
+.s-line{stroke:var(--line)}.s-acc{stroke:var(--acc)}.s-faint{stroke:var(--faint)}.s-warn{stroke:var(--warn)}.s-ink{stroke:var(--ink)}.s-bg{stroke:var(--bg)}
+.sans{font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Noto Sans&quot;,Helvetica,Arial,sans-serif}.mono{font-family:ui-monospace,SFMono-Regular,&quot;SF Mono&quot;,Menlo,Consolas,&quot;Liberation Mono&quot;,monospace}
+.pulse{animation:pulse 2.4s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.2}}
+.rise{opacity:0;animation:rise .8s cubic-bezier(.2,.7,.2,1) forwards}
+@keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important;opacity:1!important}.motion{display:none}}
+</style>
+
+<rect x="1" y="1" width="558" height="166" rx="14" class="bg s-line" stroke-width="1.5"/>
+<rect x="1" y="24" width="3" height="40" rx="1.5" class="acc"><animate attributeName="height" from="0" to="40" dur=".9s" begin="0.00s" fill="freeze" calcMode="spline" keySplines=".2 .7 .2 1"/></rect>
+<text x="28" y="54" class="sans ink" font-size="24" font-weight="600">NetForecast</text>
+<text x="532" y="54" text-anchor="end" class="sans faint" font-size="22">↗</text>
+<text x="28" y="90" class="sans muted" font-size="18">SIH 2026 team lead · LSTM IDS flags unseen attacks</text>
+<rect x="28" y="118" width="81" height="28" rx="14" class="panel s-line"/><text x="39" y="137" class="mono muted" font-size="14">pytorch</text><rect x="117" y="118" width="56" height="28" rx="14" class="panel s-line"/><text x="128" y="137" class="mono muted" font-size="14">lstm</text><rect x="181" y="118" width="81" height="28" rx="14" class="panel s-line"/><text x="192" y="137" class="mono muted" font-size="14">fastapi</text>
+
+</svg>

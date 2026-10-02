@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="196" viewBox="0 0 1200 196" role="img" aria-label="Roadmap: B.Tech at VIT Mumbai 2024, open source 2025, hackathons 2026, MOSIP Decode now, GSoC 2027, goal ML / Data Engineer">
+<title>Roadmap: B.Tech at VIT Mumbai 2024, open source 2025, hackathons 2026, MOSIP Decode now, GSoC 2027, goal ML / Data Engineer</title>
+<style>
+svg{--ink:#1f2328;--muted:#59636e;--faint:#818b98;--line:#d1d9e0;--panel:#f6f8fa;--bg:#ffffff;--warn:#9a6700;--acc:#bc4c00}
+.ink{fill:var(--ink)}.muted{fill:var(--muted)}.faint{fill:var(--faint)}.acc{fill:var(--acc)}.warn{fill:var(--warn)}
+.bg{fill:var(--bg)}.panel{fill:var(--panel)}.nofill{fill:none}
+.s-line{stroke:var(--line)}.s-acc{stroke:var(--acc)}.s-faint{stroke:var(--faint)}.s-warn{stroke:var(--warn)}.s-ink{stroke:var(--ink)}.s-bg{stroke:var(--bg)}
+.sans{font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Noto Sans&quot;,Helvetica,Arial,sans-serif}.mono{font-family:ui-monospace,SFMono-Regular,&quot;SF Mono&quot;,Menlo,Consolas,&quot;Liberation Mono&quot;,monospace}
+.pulse{animation:pulse 2.4s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.2}}
+.rise{opacity:0;animation:rise .8s cubic-bezier(.2,.7,.2,1) forwards}
+@keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.draw{stroke-dasharray:588;stroke-dashoffset:588;animation:draw 1.8s cubic-bezier(.6,0,.2,1) .2s forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;opacity:1!important}.motion{display:none}}
+</style>
+<line x1="698" y1="96" x2="1090" y2="96" class="s-faint" stroke-width="2" stroke-dasharray="3 7"/>
+<line x1="110" y1="96" x2="698" y2="96" class="s-line" stroke-width="2"/>
+<line x1="110" y1="96" x2="698" y2="96" class="s-acc draw" stroke-width="3" stroke-linecap="round"/>
+<g class="rise" style="animation-delay:0.30s">
+<text x="110" y="66" text-anchor="middle" class="mono muted" font-size="15" letter-spacing="1.5">2024</text>
+<circle cx="110" cy="96" r="8" class="acc"/>
+<text x="110" y="142" text-anchor="middle" class="sans ink" font-size="19" font-weight="600">B.Tech CE</text>
+<text x="110" y="170" text-anchor="middle" class="sans muted" font-size="16">VIT Mumbai · 9.5 CGPA</text>
+</g>
+<g class="rise" style="animation-delay:0.52s">
+<text x="306" y="66" text-anchor="middle" class="mono muted" font-size="15" letter-spacing="1.5">2025</text>
+<circle cx="306" cy="96" r="8" class="acc"/>
+<text x="306" y="142" text-anchor="middle" class="sans ink" font-size="19" font-weight="600">Open source</text>
+<text x="306" y="170" text-anchor="middle" class="sans muted" font-size="16">opensre · GreenGuard</text>
+</g>
+<g class="rise" style="animation-delay:0.74s">
+<text x="502" y="66" text-anchor="middle" class="mono muted" font-size="15" letter-spacing="1.5">2026</text>
+<circle cx="502" cy="96" r="8" class="acc"/>
+<text x="502" y="142" text-anchor="middle" class="sans ink" font-size="19" font-weight="600">Hackathons</text>
+<text x="502" y="170" text-anchor="middle" class="sans muted" font-size="16">SIH lead · Amazon ML</text>
+</g>
+<g class="rise" style="animation-delay:0.96s">
+<text x="698" y="66" text-anchor="middle" class="mono acc" font-size="15" letter-spacing="1.5">NOW</text>
+<circle cx="698" cy="96" r="8" class="nofill s-acc" stroke-width="2"><animate attributeName="r" values="8;22" dur="2s" repeatCount="indefinite"/><animate attributeName="opacity" values=".9;0" dur="2s" repeatCount="indefinite"/></circle>
+<circle cx="698" cy="96" r="9" class="acc"/><circle cx="698" cy="96" r="3.5" class="bg"/>
+<text x="698" y="142" text-anchor="middle" class="sans ink" font-size="19" font-weight="600">MOSIP Decode</text>
+<text x="698" y="170" text-anchor="middle" class="sans muted" font-size="16">Conformance automation</text>
+</g>
+<g class="rise" style="animation-delay:1.18s">
+<text x="894" y="66" text-anchor="middle" class="mono faint" font-size="15" letter-spacing="1.5">2027</text>
+<circle cx="894" cy="96" r="8" class="bg s-faint" stroke-width="2"/>
+<text x="894" y="142" text-anchor="middle" class="sans muted" font-size="19" font-weight="600">GSoC</text>
+<text x="894" y="170" text-anchor="middle" class="sans faint" font-size="16">+ ML / data internship</text>
+</g>
+<g class="rise" style="animation-delay:1.40s">
+<text x="1090" y="66" text-anchor="middle" class="mono faint" font-size="15" letter-spacing="1.5">GOAL</text>
+<circle cx="1090" cy="96" r="8" class="bg s-faint" stroke-width="2"/>
+<text x="1090" y="142" text-anchor="middle" class="sans muted" font-size="19" font-weight="600">ML / Data Engineer</text>
+<text x="1090" y="170" text-anchor="middle" class="sans faint" font-size="16">systems, end to end</text>
+</g>
+</svg>
